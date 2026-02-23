@@ -430,7 +430,7 @@ ZSETRGLIFE_LCTYPE    1   1   1   1   1   1   0   0   0   0   0   0   0   0   0  
 ZSETRGLIFE_EFA       -0.002900      -0.002900      -0.002900       0.000100       0.000100       0.000100       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
 ZSETRGLIFE_EFB        1.267000       1.267000       1.267000       0.518400       0.518400       0.518400       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305
 ZSETRGLIFE_EFC        0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
-ZSETRGLIFE_USED        0.334621      25.452497      14.223341       0.964824       0.059270       0.650387       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
+ZSETRGLIFE_USED        0.335122      25.473375      14.236144       0.965874       0.059325       0.651199       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
 CBS_TOOL_AREAMON_ATTRI        255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255
 CBS_COUPFA_SUB1       0      0     0.000
 CBS_COUPFA_SUB2       0      0     0.000
@@ -1498,35 +1498,35 @@ ZSWITCH ZFIX_CALL_1STEPPG ON   -523
 .END
 .OPE_INFO1
 OPEINFO  34 73 6 7666  1643117497  ;(22/1/25 13:31:37) BX100L-C001 
-CONT_TIM  17144.6 
-SERV_TIM  6433.0 
-MTON_CNT  21881 
-ESTP_CNT  1544 
-BRKE_CNT  28309 
-CON_PWR  3127.905 
-SUP_PWR  3127.905 
+CONT_TIM  17216.4 
+SERV_TIM  6438.5 
+MTON_CNT  22086 
+ESTP_CNT  1546 
+BRKE_CNT  28510 
+CON_PWR  3136.088 
+SUP_PWR  3136.088 
 REG_PWR  0.000 
-MOVE_TJT  1206.5 1426.7 1478.3 975.9 1423.0 1280.9 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-DIST_DJT  60353.030 65596.337 95172.103 56795.976 105617.539 137616.641 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-DIST_DJT_PLUS  30180.816 32797.362 47589.358 28404.586 52816.398 68800.639 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-OPEINFO TP_BKLIGHT  0 2352.0 50000 
+MOVE_TJT  1207.6 1428.1 1479.7 976.7 1424.4 1282.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+DIST_DJT  60393.315 65643.754 95239.722 56840.636 105670.040 137698.763 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+DIST_DJT_PLUS  30200.959 32821.088 47623.192 28426.920 52842.649 68841.704 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+OPEINFO TP_BKLIGHT  0 2357.9 50000 
 OPEINFO MC  0 0 2000000 0 0 2000000 0 0 2000000 
 OPEINFO PARTS1  0 0 0 0 0 0 0 0 0 0 0 
 OPEINFO PARTS2  0 0 0 0 0 0 0 0 0 0 0 
 OPEINFO PARTS3  0 0 0 0 0 0 0 0 0 0 0 
 M_OPEINFO  34 73 6 7666  1643024231  ;(22/1/24 11:37:11) BX100L-C001 
-M_CONT_TIM  17149.0 
-M_SERV_TIM  6433.9 
-M_MTON_CNT  21933 
-M_ESTP_CNT  1545 
-M_BRKE_CNT  28391 
-M_CON_PWR  3129.539 
-M_SUP_PWR  3129.539 
+M_CONT_TIM  17220.8 
+M_SERV_TIM  6439.3 
+M_MTON_CNT  22138 
+M_ESTP_CNT  1547 
+M_BRKE_CNT  28592 
+M_CON_PWR  3137.723 
+M_SUP_PWR  3137.723 
 M_REG_PWR  0.000 
-M_MOVE_TJT  1206.8 1427.0 1478.6 976.3 1423.3 1281.1 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-M_DIST_DJT  60390.923 65615.591 95198.154 56852.630 105659.402 137680.831 2.760 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-M_DIST_DJT_PLUS  275.698 315.623 467.372 234.512 293.720 489.124 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-HOUR_MTR  17149.0 
+M_MOVE_TJT  1207.9 1428.4 1480.1 977.1 1424.7 1282.3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+M_DIST_DJT  60431.208 65663.008 95265.773 56897.290 105711.903 137762.953 2.760 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+M_DIST_DJT_PLUS  295.841 339.349 501.206 256.846 319.971 530.189 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+HOUR_MTR  17220.8 
 .END
 .SYSDATA
 REG_POINT       0
@@ -2439,10 +2439,10 @@ SWITCH CLOCK_SYNC_HI_PRIO OFF
 .CONDITION
 AS_VER       ASE_010300Z5M
 SV_VER       SVE_08000006C
-ELOG_NUM            275
+ELOG_NUM            296
 CHK_ONCE      255
-MAN_SPEED     1
-CHK_SPEED     1
+MAN_SPEED     4
+CHK_SPEED     4
 MON_SPEED        80.000
 PRG_ACCEL       100.000
 PRG_SPEED        30.000
@@ -2482,11 +2482,11 @@ PRM_JT_DECEL    100.000   100.000   100.000   100.000   100.000   100.000   100.
 STEP1ENV_CALL_PRGNAME pg0
 STEP1ENV_PRG_STEP          1
 STEP2ENV0_CALL_PRGNAME autostart.pc
-STEP2ENV0_PRG_STEP          3
+STEP2ENV0_PRG_STEP         11
 STEP2ENV1_CALL_PRGNAME autostart2.pc
 STEP2ENV1_PRG_STEP         10
-USR_DO1      00000000100110100000000000000000
-USR_DO2      00000000000000000000000000000000
+USR_DO1      00000000100110110000000000000000
+USR_DO2      00000000000010000000001000000000
 USR_DO3      00000000000000000000000000000000
 USR_DO4      00000000000000000000000000000000
 USR_DO5      00000000000000000000000000000000
@@ -3843,7 +3843,7 @@ TOOL: NULL
 	JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-81.528,-47.184,-57.535,3.1392,70.344,123.04] ;
 	JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-5.4202,-60,-47.451,162.74,3.3016,-130.71] ;
 .END
-.PROGRAM carton() #85748
+.PROGRAM carton() #85840
 	actualstatus = 2
 	;inputs -----------------------------------------
 	; robot table
@@ -4090,7 +4090,7 @@ LMOVE calculate; ruch
 LMOVE posrednia; przejazd do pozycji posredniej po zaklejaniu
 RETURN
 .END
-.PROGRAM homing() #5028
+.PROGRAM homing() #5030
 	;.............
 	RESET ;reset signals
 	;.............
@@ -4230,7 +4230,7 @@ RETURN
 	;.............
 	RETURN
 .END
-.PROGRAM laser() #95668
+.PROGRAM laser() #95760
 	actualstatus = 3
 	;...........
 	;SYGNALY
@@ -4347,9 +4347,10 @@ RETURN
 	;...........
 	LMOVE #rotmid; pozycja posrednia miedzy bazowa z obroconym chwytakiem
 .END
-.PROGRAM palletize_left() #40342
+.PROGRAM palletize_left() #40434
 	actualstatus = 4
 	;..............
+	wdrugastronel = 0
 	BASE NULL
 	offsetleft = 1
 	;..............
@@ -4382,6 +4383,13 @@ RETURN
 		column = BITS (1097, 8)
 		layer = BITS (1105, 8)
 	UNTIL (row >= 0 AND row <= 3 AND column >= 0 AND column <= 1 AND layer >= 0 AND layer <= 5)
+	IF layer >= 5 THEN
+		IF column == 0 THEN
+			column = 1
+		ELSE
+			column = 0
+		END
+	END
 	;.......
 	IF column == 1 THEN
 		IF SIG (rotateleft) THEN
@@ -4394,14 +4402,34 @@ RETURN
 			POINT baseleftoffset = SHIFT (baseleftoffset BY , 130) - RZ (180)
 		END
 	END ;end if
-	;obliczenie pozycji nad paleta
-	POINT nadpalleft = SHIFT (baseleftoffset BY - ((row * cartonwidth) + 20), - ((column * cartonlenght) + 20))
-	POINT/Z nadpalleft = TRANS (, , 1825)
-	;...........
-	;obliczenie pozycji przed odlozeniem
-	POINT przedodlleft = SHIFT (baseleftoffset BY - ((row * cartonwidth) + 20), - ((column * cartonlenght) + 20), ((layer * cartonheight) + 100))
-	;obliczenie pozycji odlozenia
-	POINT odlleft = SHIFT (baseleftoffset BY - (row * cartonwidth), - (column * cartonlenght), (layer * cartonheight))
+	IF layer < 5 THEN
+		;obliczenie pozycji nad paleta
+		POINT nadpalleft = SHIFT (baseleftoffset BY - ((row * cartonwidth) + 20), - ((column * cartonlenght) + 20))
+		POINT/Z nadpalleft = TRANS (, , 1850)
+		;...........
+		;obliczenie pozycji przed odlozeniem
+		POINT przedodlleft = SHIFT (baseleftoffset BY - ((row * cartonwidth) + 20), - ((column * cartonlenght) + 20), ((layer * cartonheight) + 100))
+		;obliczenie pozycji odlozenia
+		POINT odlleft = SHIFT (baseleftoffset BY - (row * cartonwidth), - (column * cartonlenght), (layer * cartonheight))
+	ELSE
+		;obliczenie pozycji nad paleta
+		POINT nadpalleft = SHIFT (baseleftoffset BY - ((row * cartonwidth) + 20), - ((column * cartonlenght) - 20))
+		POINT/Z nadpalleft = TRANS (, , 1850)
+		;...........
+		;obliczenie pozycji przed odlozeniem
+		POINT przedodlleft = SHIFT (baseleftoffset BY - ((row * cartonwidth) + 20), - ((column * cartonlenght) - 20), ((layer * cartonheight) + 100))
+		;obliczenie pozycji odlozenia
+		POINT odlleft = SHIFT (baseleftoffset BY - (row * cartonwidth), - (column * cartonlenght), (layer * cartonheight))
+	END
+	POINT rotation = odlleft
+	IF row == 1 AND column == 1 AND SIG (rotateleft) THEN
+		POINT rotation = rotation - RX (90)
+		POINT rotation = SHIFT (rotation BY , , 200)
+		wdrugastrone = 1
+	ELSE
+		POINT rotation = rotation + RX (90)
+		POINT rotation = SHIFT (rotation BY , , 200)
+	END
 	;...........
 	;odlozenie kartonu
 	;............
@@ -4411,13 +4439,20 @@ RETURN
 	ACCURACY 100
 	;............
 	JMOVE #palmid_l
+	POINT palrotl = nadpalleft
+	POINT/X palrotl = TRANS (757)
+	POINT/Y palrotl = TRANS (, 386)
+	POINT/Z palrotl = TRANS (, , 2104)
+	SPEED 100
+	ACCURACY 100
+	JMOVE palrotl
 	;............
 	WAIT SIG (putleft) ;oczekiwanie na paletyzacje lewa
 	;............
 	SPEED 100
 	ACCURACY 10
 	;............
-	JMOVE nadpalleft
+	LMOVE nadpalleft
 	PALMODE ON
 	;............
 	SPEED 50
@@ -4446,14 +4481,29 @@ RETURN
 	SPEED 100
 	ACCURACY 1
 	;............
-	LAPPRO odlleft, 300
-	BREAK
+	IF layer < 5 THEN
+		LAPPRO odlleft, 300
+		BREAK
+	ELSE
+		PALMODE OFF
+		LMOVE rotation
+		BREAK
+	END
 	SIGNAL robotplacedleft
 	;............
 	SPEED 100
 	ACCURACY 10
 	;............
-	LMOVE nadpalleft
+	IF layer < 5 THEN
+		LMOVE nadpalleft
+	ELSE
+		IF wdrugastrone == 0 THEN
+			LMOVE #palmid_l_6
+		ELSE
+			LMOVE #palmid_l_61
+		END
+		wdrugastrone = 0
+	END
 	SIGNAL -robotplacedleft
 	PALMODE OFF
 	;............
@@ -4478,6 +4528,7 @@ RETURN
 .PROGRAM palletize_right() #55261
 	actualstatus = 5
 	;..............
+	wdrugastrone = 0
 	BASE NULL
 	offsetright = 1
 	;..............
@@ -4510,6 +4561,13 @@ RETURN
 		column = BITS (1121, 8)
 		layer = BITS (1129, 8)
 	UNTIL (row >= 0 AND row <= 3 AND column >= 0 AND column <= 1 AND layer >= 0 AND layer <= 5)
+	IF layer >= 5 THEN
+		IF column == 0 THEN
+			column = 1
+		ELSE
+			column = 0
+		END
+	END
 	;.......
 	IF column == 1 THEN
 		IF SIG (rotateright) THEN
@@ -4522,14 +4580,34 @@ RETURN
 			POINT baserightoffset = SHIFT (baserightoffset BY , 130) + RZ (180)
 		END
 	END ;end if
-	;obliczenie pozycji nad paleta
-	POINT nadpalright = SHIFT (baserightoffset BY ((row * cartonwidth) + 10), - ((column * cartonlenght) + 20))
-	POINT/Z nadpalright = TRANS (, , 1825)
-	;...........
-	;obliczenie pozycji przed odlozeniem
-	POINT przedodlright = SHIFT (baserightoffset BY ((row * cartonwidth) + 10), - ((column * cartonlenght) + 20), ((layer * cartonheight) + 100))
-	;obliczenie pozycji odlozenia
-	POINT odlright = SHIFT (baserightoffset BY (row * cartonwidth), - (column * cartonlenght), (layer * cartonheight))
+	IF layer < 5 THEN
+		;obliczenie pozycji nad paleta
+		POINT nadpalright = SHIFT (baserightoffset BY ((row * cartonwidth) + 10), - ((column * cartonlenght) + 20))
+		POINT/Z nadpalright = TRANS (, , 1850)
+		;...........
+		;obliczenie pozycji przed odlozeniem
+		POINT przedodlright = SHIFT (baserightoffset BY ((row * cartonwidth) + 10), - ((column * cartonlenght) + 20), ((layer * cartonheight) + 100))
+		;obliczenie pozycji odlozenia
+		POINT odlright = SHIFT (baserightoffset BY (row * cartonwidth), - (column * cartonlenght), (layer * cartonheight))
+	ELSE
+		;obliczenie pozycji nad paleta
+		POINT nadpalright = SHIFT (baserightoffset BY ((row * cartonwidth) + 10), - ((column * cartonlenght) - 20))
+		POINT/Z nadpalright = TRANS (, , 1850)
+		;...........
+		;obliczenie pozycji przed odlozeniem
+		POINT przedodlright = SHIFT (baserightoffset BY ((row * cartonwidth) + 10), - ((column * cartonlenght) - 20), ((layer * cartonheight) + 100))
+		;obliczenie pozycji odlozenia
+		POINT odlright = SHIFT (baserightoffset BY (row * cartonwidth), - (column * cartonlenght), (layer * cartonheight))
+	END
+	POINT rotation = odlright
+	IF row == 1 AND column == 1 AND SIG (rotateright) THEN
+		POINT rotation = rotation - RX (90)
+		POINT rotation = SHIFT (rotation BY , , 200)
+		wdrugastrone = 1
+	ELSE
+		POINT rotation = rotation + RX (90)
+		POINT rotation = SHIFT (rotation BY , , 200)
+	END
 	;...........
 	;odlozenie kartonu
 	;............
@@ -4544,13 +4622,20 @@ RETURN
 	ACCURACY 100
 	;............
 	JMOVE #palmid_r
+	POINT palrotr = nadpalright
+	POINT/X palrotr = TRANS (-757)
+	POINT/Y palrotr = TRANS (, 386)
+	POINT/Z palrotr = TRANS (, , 1900)
+	SPEED 100
+	ACCURACY 100
+	JMOVE palrotr
 	;............
 	WAIT SIG (putright) ;oczekiwanie na paletyzacje prawa
 	;............
 	SPEED 100
 	ACCURACY 10
 	;............
-	JMOVE nadpalright
+	LMOVE nadpalright
 	PALMODE ON
 	;............
 	SPEED 50
@@ -4579,14 +4664,29 @@ RETURN
 	SPEED 100
 	ACCURACY 1
 	;............
-	LAPPRO odlright, 300
-	BREAK
+	IF layer < 5 THEN
+		LAPPRO odlright, 300
+		BREAK
+	ELSE
+		PALMODE OFF
+		LMOVE rotation
+		BREAK
+	END
 	SIGNAL robotplacedrigh
 	;............
 	SPEED 100
 	ACCURACY 10
 	;............
-	LMOVE nadpalright
+	IF layer < 5 THEN
+		LMOVE nadpalright
+	ELSE
+		IF wdrugastrone == 0 THEN
+			LMOVE #palmid_r_6
+		ELSE
+			LMOVE #palmid_r_61
+		END
+		wdrugastrone = 0
+	END
 	SIGNAL -robotplacedrigh
 	PALMODE OFF
 	;............
@@ -5029,18 +5129,21 @@ calculate 1441.032593 1900.441650 1518.755371 -0.500243 90.144035 -88.357117
 fold 384.261688 1902.008545 1609.953979 -0.495797 90.142570 -88.357941
 glueend 1441.236206 1897.859497 1608.718140 -0.500243 90.144035 -88.357117
 gluestart 404.820557 1906.759766 1611.179077 -0.499908 90.143799 -88.357658
-nadpalleft 966.669312 -569.589539 1825.000000 174.294434 179.802353 173.858780
-nadpalright -1553.750610 -185.535843 1825.000000 -175.109222 179.925797 4.890041
+nadpalleft 1548.669312 -569.589539 1850.000000 174.294434 179.802353 173.858780
+nadpalright -971.750610 -145.535843 1850.000000 -175.109222 179.925797 4.890041
 narozniki -560.639587 1937.386841 1932.174194 0.931500 89.725159 -88.356003
-odlleft 986.669312 -549.589539 382.546051 174.294434 179.802353 173.858780
-odlright -1563.750610 -165.535843 1066.939087 -175.109222 179.925797 4.890041
+odlleft 1568.669312 -549.589539 43.546051 174.294434 179.802353 173.858780
+odlright -981.750610 -165.535843 1744.939087 -175.109222 179.925797 4.890041
 p_closebag1 -539.213928 1921.172363 1603.347656 -0.193691 89.775093 -91.825310
 p_closebag2 -539.208435 1909.311768 1592.489380 -0.219162 89.742233 -90.569504
+palrotl 757.000000 386.000000 2104.000000 174.294434 179.802353 173.858780
+palrotr -757.000000 386.000000 1900.000000 -175.109222 179.925797 4.890041
 podnarozniki -560.264343 1946.241089 1625.623657 0.939268 89.725830 -88.357674
 posrednia 1592.555176 1481.786377 1550.082031 -0.502174 90.144829 -88.349098
 przedklejem 384.257111 1902.691406 1600.183838 -0.637506 90.146141 -88.364769
-przedodlleft 966.669312 -569.589539 482.546051 174.294434 179.802353 173.858780
-przedodlright -1553.750610 -185.535843 1166.939087 -175.109222 179.925797 4.890041
+przedodlleft 1548.669312 -569.589539 143.546051 174.294434 179.802353 173.858780
+przedodlright -971.750610 -145.535843 1844.939087 -175.109222 179.925797 4.890041
+rotation 1568.669312 -549.589539 243.546051 -89.564377 90.021149 -90.196526
 t1 230.000000 60.000000 0.000000 0.000000 0.000000 0.000000
 t2 -230.000000 60.000000 0.000000 0.000000 0.000000 0.000000
 t3 230.000000 60.000000 600.000000 0.000000 0.000000 0.000000
@@ -5049,8 +5152,8 @@ t5 230.000000 -250.000000 600.000000 0.000000 0.000000 0.000000
 t6 -230.000000 -250.000000 600.000000 0.000000 0.000000 0.000000
 t7 230.000000 -250.000000 0.000000 0.000000 0.000000 0.000000
 t8 -230.000000 -250.000000 0.000000 0.000000 0.000000 0.000000
-temp_act_pos -501.060211 1316.812134 1540.269287 0.013357 97.675613 -89.749138
-temp_base_pos -501.060211 1400.000000 1250.000000 0.013357 97.675629 -89.749138
+temp_act_pos -501.080353 1316.838989 1540.305542 0.013768 97.676498 -89.746689
+temp_base_pos -501.080353 1400.000000 1250.000000 0.013768 97.676514 -89.746689
 tool1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 .END
 .JOINTS
@@ -5058,21 +5161,25 @@ tool1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 #after_pick_c_r -16.728001 2.238000 -35.458000 -79.330002 -102.957001 129.186005
 #before_pick_c_l -23.143278 24.246349 -12.314540 -61.488117 -96.475853 132.202271
 #before_pick_c_r -28.492001 10.099000 -30.847000 -57.396000 -97.843002 138.145004
-#beforelas 59.639996 -2.754000 -20.481001 -118.555992 -34.747002 123.156006
+#beforelas 59.639294 -3.173917 -16.662548 -112.852386 -32.905548 116.295349
 #befrotate 51.435001 -16.537001 -32.171001 -109.612000 -41.081001 114.825996
 #homepos -28.805002 1.845000 -13.956000 -73.426003 -115.017998 111.727997
 #laser 60.154728 5.014921 -33.120663 -137.848373 -47.258308 148.080811
-#palmid_l 63.000000 -26.212999 -12.817000 0.000000 -103.397003 0.001000
+#palmid_l 62.999680 -20.326450 3.279569 0.000276 -113.608109 0.000588
+#palmid_l_6 62.999294 -35.717049 -16.310297 -0.001932 -19.417274 0.002328
+#palmid_l_61 62.999104 -35.716362 -16.310984 -0.001932 -19.417501 180.011093
 #palmid_r -63.000000 -26.214319 -12.818736 0.000000 -103.397469 0.000000
+#palmid_r_6 -63.000061 -41.048691 -30.539408 0.000280 -10.499490 -0.000350
+#palmid_r_61 -63.000252 -41.048466 -30.540094 0.000000 -10.499719 -179.978867
 #pick_c_l -12.396678 29.197556 -22.822910 -80.564377 -98.095863 142.830048
 #pick_c_r -16.308945 16.100826 -42.325459 -76.284370 -98.932533 149.632965
 #rotmid 54.391998 -4.735000 14.600000 0.001000 -109.342003 36.606998
 #rotpick 68.690926 27.452122 34.486580 0.156741 -96.776558 21.207163
-#temp_home_pos -27.387978 8.301824 -20.352577 -69.124802 -109.608704 124.429489
+#temp_home_pos -27.354410 8.364618 -20.290239 -69.139427 -109.592522 124.419846
 .END
 .REALS
-actual_trq = 1.53677
-actualstatus = 0
+actual_trq = 1.67522
+actualstatus = 2
 cartdelivered1 = 51
 cartdelivered2 = 54
 cartonclosebag1 = 65
@@ -5110,7 +5217,7 @@ gstart_off_zp = 0
 gstart_offset_z = 0
 h_base = 1300
 intcom = 29
-layer = 1
+layer = 0
 leftpushed = 1066
 movedup = 66
 nar_offset_zm = 0
@@ -5162,7 +5269,9 @@ robotrdytopushl = 59
 robotrdytopushr = 60
 rotateleft = 1064
 rotateright = 1065
-row = 3
+row = 1
+wdrugastrone = 0
+wdrugastronel = 0
 wingsnok = 1075
 x_base = 200
 y_base = 650
