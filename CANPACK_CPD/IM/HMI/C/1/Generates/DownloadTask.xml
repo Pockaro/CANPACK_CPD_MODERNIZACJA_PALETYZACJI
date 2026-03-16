@@ -2,18 +2,18 @@
 <DownloadTask>
   <ProjectInfo
     DeviceVersion="17.0.0.0"
-    CreationTime="2026-03-12 13:38:11 (UTC)"
+    CreationTime="2026-03-16 10:11:15 (UTC)"
     Runtime="COLORADO"
     RtProjectName="CANPACK_CPD.TK5,TK6/9.A1[TP1500 Comfort]"
     RtProjectFolderName="CANPACK_CPD.TK5,TK6]9.A1[TP1500 Comfort]"
     DeviceType="TP1500 Comfort V2"
     DisplayOrientation="0"
-    RTReleaseNo="17.0.0.0"
-    ImageReleaseNo="17.0.0.0"
+    RTReleaseNo="17.0.0.6"
+    ImageReleaseNo="17.0.0.6"
     RTCV="17.0.0.0"
     PRCV="17.0.0.0"
-    FirmwareFileName=""
-    RuntimeFileName=""
+    FirmwareFileName="CP_15_19_22_V2\17.0.0.6\CP_15_19_22_V2_V17_0.fwf"
+    RuntimeFileName="CP_15_19_22_V2\17.0.0.6\CP_15_19_22_V2_V17_0.ruf"
     RuntimeAddonFolderName="CP_15_19_22_V2" />
   <FullDownload>pdata.fwc</FullDownload>
   <FullDownload
