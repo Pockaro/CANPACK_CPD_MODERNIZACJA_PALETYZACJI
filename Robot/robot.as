@@ -430,7 +430,7 @@ ZSETRGLIFE_LCTYPE    1   1   1   1   1   1   0   0   0   0   0   0   0   0   0  
 ZSETRGLIFE_EFA       -0.002900      -0.002900      -0.002900       0.000100       0.000100       0.000100       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
 ZSETRGLIFE_EFB        1.267000       1.267000       1.267000       0.518400       0.518400       0.518400       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305
 ZSETRGLIFE_EFC        0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
-ZSETRGLIFE_USED        0.335225      25.477457      14.238544       0.966022       0.059328       0.651370       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
+ZSETRGLIFE_USED        0.367501      27.393911      15.385755       1.032427       0.060705       0.690278       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
 CBS_TOOL_AREAMON_ATTRI        255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255
 CBS_COUPFA_SUB1       0      0     0.000
 CBS_COUPFA_SUB2       0      0     0.000
@@ -847,8 +847,8 @@ ZTOPACDCLIM_BETA  0.600  1300234233
 ZPITACDCLIM_ALPHA_M      0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000          -1
 ZPITACDCLIM_ALPHA_N      0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000          -1
 ZPITACDCLIM_BETA      0.000          -1
-ZGASPRESS_KA  0.000 0.832 0.000 0.000 0.000 0.000  1241849523
-ZGASPRESS_KAR  0.000 1.080 0.000 0.000 0.000 0.000  1189504608
+ZGASPRESS_KA  0.000 1.179 0.000 0.000 0.000 0.000  1177047528
+ZGASPRESS_KAR  0.000 1.315 0.000 0.000 0.000 0.000  1159934763
 ZGASPRESS_PLIM  0.000 6.000 0.000 0.000 0.000 0.000   884998143
 ZGASPRESS_VA  0.000 20.000 0.000 0.000 0.000 0.000   664797183
 ZGASPRESS_JTM  0.000 -25.000 0.000 0.000 0.000 0.000 -1522008065
@@ -861,7 +861,7 @@ ZGASPRESS_DATAMAX         60
 ZGASPRESS_PRESS  0.000 12.100 0.000 0.000 0.000 0.000   757596153
 ZGASPRESS_CALDIST  1000000.000 1000000.000 1000000.000 1000000.000 1000000.000 1000000.000          -1   736669023
 ZGASPRESS_CALTIME  168.000 168.000 168.000 168.000 168.000 168.000   -54788097
-ZGASPRESS_PRATE  0.000 0.000 0.000 0.000 0.000 0.000          -1
+ZGASPRESS_PRATE  0.000 103.524 0.000 0.000 0.000 0.000   366888873
 ZGASPRESS_DIST  0.000 0.000 0.000 0.000 0.000 0.000          -1
 ZGASPRESS_CALFSTEND  OFF  ON   OFF  OFF  OFF  OFF   -4949
 ZSETPRM_ACDCSUP_SW      0.000    60.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000   460324863
@@ -1498,35 +1498,35 @@ ZSWITCH ZFIX_CALL_1STEPPG ON   -523
 .END
 .OPE_INFO1
 OPEINFO  34 73 6 7666  1643117497  ;(22/1/25 13:31:37) BX100L-C001 
-CONT_TIM  17305.6 
-SERV_TIM  6494.4 
-MTON_CNT  22181 
-ESTP_CNT  1546 
-BRKE_CNT  28605 
-CON_PWR  3143.692 
-SUP_PWR  3143.692 
+CONT_TIM  18312.1 
+SERV_TIM  7331.1 
+MTON_CNT  22782 
+ESTP_CNT  1582 
+BRKE_CNT  29205 
+CON_PWR  3288.320 
+SUP_PWR  3288.320 
 REG_PWR  0.000 
-MOVE_TJT  1207.8 1428.3 1480.0 976.9 1424.7 1282.3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-DIST_DJT  60402.552 65653.140 95253.584 56847.586 105679.182 137716.660 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-DIST_DJT_PLUS  30205.577 32825.784 47630.131 28430.395 52847.219 68850.647 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-OPEINFO TP_BKLIGHT  0 2360.4 50000 
+MOVE_TJT  1277.9 1511.7 1566.6 1029.8 1506.5 1357.8 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+DIST_DJT  63712.138 69666.992 101354.243 59888.678 109563.755 144058.585 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+DIST_DJT_PLUS  31860.209 34832.615 50680.585 29951.947 54789.255 72022.311 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+OPEINFO TP_BKLIGHT  0 2373.0 50000 
 OPEINFO MC  0 0 2000000 0 0 2000000 0 0 2000000 
 OPEINFO PARTS1  0 0 0 0 0 0 0 0 0 0 0 
 OPEINFO PARTS2  0 0 0 0 0 0 0 0 0 0 0 
 OPEINFO PARTS3  0 0 0 0 0 0 0 0 0 0 0 
 M_OPEINFO  34 73 6 7666  1643024231  ;(22/1/24 11:37:11) BX100L-C001 
-M_CONT_TIM  17310.0 
-M_SERV_TIM  6495.3 
-M_MTON_CNT  22233 
-M_ESTP_CNT  1547 
-M_BRKE_CNT  28687 
-M_CON_PWR  3145.326 
-M_SUP_PWR  3145.326 
+M_CONT_TIM  18316.5 
+M_SERV_TIM  7332.0 
+M_MTON_CNT  22834 
+M_ESTP_CNT  1583 
+M_BRKE_CNT  29287 
+M_CON_PWR  3289.954 
+M_SUP_PWR  3289.954 
 M_REG_PWR  0.000 
-M_MOVE_TJT  1208.1 1428.6 1480.3 977.2 1425.0 1282.6 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-M_DIST_DJT  60440.445 65672.395 95279.637 56904.240 105721.046 137780.853 2.760 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-M_DIST_DJT_PLUS  300.459 344.045 508.145 260.323 324.541 539.137 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-HOUR_MTR  17310.0 
+M_MOVE_TJT  1278.2 1512.0 1566.9 1030.1 1506.8 1358.1 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+M_DIST_DJT  63750.031 69686.247 101380.294 59945.331 109605.619 144122.776 2.760 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+M_DIST_DJT_PLUS  1955.091 2350.876 3558.599 1781.873 2266.577 3710.796 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+HOUR_MTR  18316.5 
 .END
 .SYSDATA
 REG_POINT       0
@@ -2439,10 +2439,10 @@ SWITCH CLOCK_SYNC_HI_PRIO OFF
 .CONDITION
 AS_VER       ASE_010300Z5M
 SV_VER       SVE_08000006C
-ELOG_NUM            357
+ELOG_NUM             89
 CHK_ONCE      255
-MAN_SPEED     4
-CHK_SPEED     4
+MAN_SPEED     3
+CHK_SPEED     3
 MON_SPEED        70.000
 PRG_ACCEL       100.000
 PRG_SPEED        30.000
@@ -2482,11 +2482,11 @@ PRM_JT_DECEL    100.000   100.000   100.000   100.000   100.000   100.000   100.
 STEP1ENV_CALL_PRGNAME pg0
 STEP1ENV_PRG_STEP          1
 STEP2ENV0_CALL_PRGNAME autostart.pc
-STEP2ENV0_PRG_STEP          3
+STEP2ENV0_PRG_STEP         23
 STEP2ENV1_CALL_PRGNAME autostart2.pc
 STEP2ENV1_PRG_STEP         10
-USR_DO1      00000000100110110000000000000000
-USR_DO2      00000000000010000000001000000000
+USR_DO1      00010000100110110000000000000000
+USR_DO2      00000000100000000000001100000000
 USR_DO3      00000000000000000000000000000000
 USR_DO4      00000000000000000000000000000000
 USR_DO5      00000000000000000000000000000000
@@ -2742,7 +2742,7 @@ ACCUR             1.000    10.000    50.000   100.000     1.000
 SPEED            10.000    20.000    30.000    40.000    50.000    60.000    70.000    80.000    90.000   100.000
 ACCEL           100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000
 DECEL           100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000
-SLOW_REPEAT      10.000
+SLOW_REPEAT      25.000
 CHECK_SPEED       1.000    10.000    80.000   150.000   250.000
 TEACH_SPEED       0.500    10.000    80.000   150.000   250.000
 CHK_INCHING       1.000
@@ -3781,7 +3781,7 @@ Numery krokow sekwencji
 90 - przeorientowanie chwytaka
 100 - zlapanie kartonu od gory
 @@@ PROJECTNAME @@@
-20231023_1324_canpack
+robot
 @@@ HISTORY @@@
 @@@ INSPECTION @@@
 @@@ CONNECTION @@@
@@ -3843,7 +3843,7 @@ TOOL: NULL
 	JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-81.528,-47.184,-57.535,3.1392,70.344,123.04] ;
 	JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-5.4202,-60,-47.451,162.74,3.3016,-130.71] ;
 .END
-.PROGRAM carton() #85860
+.PROGRAM carton() #95084
 	actualstatus = 2
 	;inputs -----------------------------------------
 	; robot table
@@ -4090,7 +4090,7 @@ LMOVE calculate; ruch
 LMOVE posrednia; przejazd do pozycji posredniej po zaklejaniu
 RETURN
 .END
-.PROGRAM homing() #5042
+.PROGRAM homing() #5141
 	;.............
 	RESET ;reset signals
 	;.............
@@ -4230,124 +4230,125 @@ RETURN
 	;.............
 	RETURN
 .END
-.PROGRAM laser() #95780
-	actualstatus = 3
-	;...........
-	;SYGNALY
-	;INPUTS
-	readyformark = 1058
-	cartonmarked = 1059
-	checked_down = 1074
-	wingsnok = 1075
-	empty_cart_con = 1076
-	;OUTPUTS
-	cartondelivered = 56
-	check_down = 67
-	empty_carton = 68
-	full_carton = 69
-	;...........
-	SPEED 50
-	ACCURACY 20
-	;...........
-	LMOVE #beforelas; pozycja przed podjazdem do lasera
-	;.............
-	SWAIT readyformark
-	;...........
-	SPEED 30
-	ACCURACY 1
-	;...........
-	LAPPRO #laser, 100
-	;...........
-	;empty_trq = 1.33
-	;...........
-	TWAIT 1
-	actual_trq = TRQNM (5)
-	;...........
-	;IF actual_trq <= empty_trq THEN
-	;  SIGNAL empty_carton
-	;  SWAIT empty_cart_con
-	;  SIGNAL -empty_carton
-	;  SIGNAL -full_carton
-	;ELSE
-	;  SIGNAL full_carton
-	;  SWAIT empty_cart_con
-	;  SIGNAL -full_carton
-	;  SIGNAL -empty_carton
-	;END ;end if
-	;...........
-	SPEED 30
-	ACCURACY 1
-	LMOVE #laser; pozycja wypalania
-	;.............
-	BREAK
-	;.............
-	SIGNAL openfull
-	SIGNAL -openshort
-	SIGNAL -closetorque
-	SWAIT openedfull
-	SIGNAL -openfull
-	;.............
-	SIGNAL cartondelivered
-	;...........
-	SPEED 100
-	ACCURACY 20
-	;...........
-	LAPPRO #laser, 400; pozycja przed wypalaniem
-	BREAK
-	;...........
-	SPEED 100
-	ACCURACY 20
-	;...........
-	JMOVE #befrotate; pozycja przed podjazdem do lasera
-	;...........
-	SPEED 100
-	ACCURACY 20
-	;...........
-	LAPPRO #rotpick, 250; pozycja nad pobraniem z rotacja
-	IF SIG (wingsnok) THEN
-		LAPPRO #rotpick, 200; pozycja nad pobraniem z rotacja
-	END
-	SWAIT -wingsnok
-	;...........
-	SPEED 30
-	ACCURACY 1
-	;...........
-	LMOVE #rotpick; pozycja pobrania z rotacja
-	SWAIT cartonmarked
-	;.............
-	SIGNAL -openfull
-	SIGNAL openshort
-	SIGNAL -closetorque
-	SWAIT openedshort ; czekanie na zamkniecie
-	SIGNAL -openfull
-	SIGNAL -openshort
-	SIGNAL closetorque
-	SWAIT closedtorque ; czekanie na zamkniecie
-	SIGNAL -closetorque ; zdjecie sygnalu
-	;...........
-	SPEED 20
-	ACCURACY 1
-	;...........
-	LAPPRO #rotpick, 80; pozycja nad pobraniem z rotacja
-	BREAK
-	;...........
-	SIGNAL -cartondelivered
-	SIGNAL check_down
-	SWAIT checked_down
-	SIGNAL -check_down
-	;...........
-	SPEED 100
-	ACCURACY 20
-	;...........
-	LAPPRO #rotpick, 250; pozycja nad pobraniem z rotacja
-	;SIGNAL -cartondelivered
-	;...........
-	SPEED 100
-	ACCURACY 100
-	;...........
-	LMOVE #rotmid; pozycja posrednia miedzy bazowa z obroconym chwytakiem
+.PROGRAM laser() #105001
+  actualstatus = 3
+  ;...........
+  ;SYGNALY
+  ;INPUTS
+  readyformark = 1058
+  cartonmarked = 1059
+  checked_down = 1074
+  wingsnok = 1075
+  empty_cart_con = 1076
+  ;OUTPUTS
+  cartondelivered = 56
+  check_down = 67
+  empty_carton = 68
+  full_carton = 69
+  ;...........
+  SPEED 50
+  ACCURACY 20
+  ;...........
+  LMOVE #beforelas; pozycja przed podjazdem do lasera
+  ;.............
+  SWAIT readyformark
+  ;...........
+  SPEED 30
+  ACCURACY 1
+  ;...........
+  LAPPRO #laser, 100
+  ;...........
+  ;empty_trq = 1.33
+  ;...........
+  TWAIT 1
+  actual_trq = TRQNM (5)
+  ;...........
+  ;IF actual_trq <= empty_trq THEN
+  ;  SIGNAL empty_carton
+  ;  SWAIT empty_cart_con
+  ;  SIGNAL -empty_carton
+  ;  SIGNAL -full_carton
+  ;ELSE
+  ;  SIGNAL full_carton
+  ;  SWAIT empty_cart_con
+  ;  SIGNAL -full_carton
+  ;  SIGNAL -empty_carton
+  ;END ;end if
+  ;...........
+  SPEED 30
+  ACCURACY 1
+  LMOVE #laser; pozycja wypalania
+  ;.............
+  BREAK
+  ;.............
+  SIGNAL openfull
+  SIGNAL -openshort
+  SIGNAL -closetorque
+  SWAIT openedfull
+  SIGNAL -openfull
+  ;.............
+  SIGNAL cartondelivered
+  ;...........
+  SPEED 100
+  ACCURACY 20
+  ;...........
+  LAPPRO #laser, 400; pozycja przed wypalaniem
+  BREAK
+  ;...........
+  SPEED 100
+  ACCURACY 20
+  ;...........
+  SWAIT -wingsnok
+  JMOVE #befrotate; pozycja przed podjazdem do lasera
+  ;...........
+  SPEED 100
+  ACCURACY 20
+  ;...........
+  LAPPRO #rotpick, 250; pozycja nad pobraniem z rotacja
+  IF SIG (wingsnok) THEN
+    LAPPRO #rotpick, 200; pozycja nad pobraniem z rotacja
+  END
+  SWAIT -wingsnok
+  ;...........
+  SPEED 30
+  ACCURACY 1
+  ;...........
+  LMOVE #rotpick; pozycja pobrania z rotacja
+  SWAIT cartonmarked
+  ;.............
+  SIGNAL -openfull
+  SIGNAL openshort
+  SIGNAL -closetorque
+  SWAIT openedshort ; czekanie na zamkniecie
+  SIGNAL -openfull
+  SIGNAL -openshort
+  SIGNAL closetorque
+  SWAIT closedtorque ; czekanie na zamkniecie
+  SIGNAL -closetorque ; zdjecie sygnalu
+  ;...........
+  SPEED 20
+  ACCURACY 1
+  ;...........
+  LAPPRO #rotpick, 80; pozycja nad pobraniem z rotacja
+  BREAK
+  ;...........
+  SIGNAL -cartondelivered
+  SIGNAL check_down
+  SWAIT checked_down
+  SIGNAL -check_down
+  ;...........
+  SPEED 100
+  ACCURACY 20
+  ;...........
+  LAPPRO #rotpick, 250; pozycja nad pobraniem z rotacja
+  ;SIGNAL -cartondelivered
+  ;...........
+  SPEED 100
+  ACCURACY 100
+  ;...........
+  LMOVE #rotmid; pozycja posrednia miedzy bazowa z obroconym chwytakiem
 .END
-.PROGRAM palletize_left() #40446
+.PROGRAM palletize_left() #46089
 	actualstatus = 4
 	;..............
 	wdrugastronel = 0
@@ -4528,7 +4529,7 @@ RETURN
 	RETURN
 	;.............
 .END
-.PROGRAM palletize_right() #55263
+.PROGRAM palletize_right() #58833
 	actualstatus = 5
 	;..............
 	wdrugastrone = 0
@@ -4743,7 +4744,7 @@ RETURN
 		END
 	END
 .END
-.PROGRAM service_carton() #204
+.PROGRAM service_carton() #232
 	;.............
 	RESET ;reset signals
 	readyformark = 1058
@@ -5124,29 +5125,29 @@ RETURN
 	END
 .END
 .TRANS
-baseleftoffset 1529.669312 -14.589539 43.546051 174.294434 179.802353 -96.141235
-baseposleft 1859.669312 -184.589539 43.546051 174.294434 179.802353 -6.141229
+baseleftoffset 1849.968506 -185.522552 52.061687 174.273270 179.800568 -6.162616
+baseposleft 1849.968506 -185.522552 52.061687 174.273270 179.800568 -6.162616
 baseposright -1854.750610 -165.535843 49.939091 -175.109222 179.925797 4.890041
 baserightoffset -1854.750610 -165.535843 49.939091 -175.109222 179.925797 4.890041
 calculate 1441.032593 1900.441650 1518.755371 -0.500243 90.144035 -88.357117
 fold 384.261688 1902.008545 1609.953979 -0.495797 90.142570 -88.357941
 glueend 1441.236206 1897.859497 1608.718140 -0.500243 90.144035 -88.357117
 gluestart 404.820557 1906.759766 1611.179077 -0.499908 90.143799 -88.357658
-nadpalleft 1218.669312 -529.589539 1850.000000 174.294434 179.802353 -96.141243
-nadpalright -1262.750610 -185.535843 1850.000000 -175.109222 179.925797 4.890041
+nadpalleft 1829.968506 -205.522552 1850.000000 174.273270 179.800568 -6.162615
+nadpalright -1553.750610 -185.535843 1850.000000 -175.109222 179.925797 4.890041
 narozniki -560.639587 1937.386841 1932.174194 0.931500 89.725159 -88.356003
-odlleft 1238.669312 -509.589539 1399.546021 174.294434 179.802353 -96.141235
-odlright -1272.750610 -165.535843 49.939091 -175.109222 179.925797 4.890041
+odlleft 1849.968506 -185.522552 52.061687 174.273270 179.800568 -6.162616
+odlright -1563.750610 -165.535843 727.939087 -175.109222 179.925797 4.890041
 p_closebag1 -539.213928 1921.172363 1603.347656 -0.193691 89.775093 -91.825310
 p_closebag2 -539.208435 1909.311768 1592.489380 -0.219162 89.742233 -90.569504
-palrotl 757.000000 386.000000 1850.000000 174.294434 179.802353 -96.141266
+palrotl 757.000000 386.000000 1850.000000 174.273270 179.800568 -6.162614
 palrotr -757.000000 386.000000 1900.000000 -175.109222 179.925797 4.890041
 podnarozniki -560.264343 1946.241089 1625.623657 0.939268 89.725830 -88.357674
 posrednia 1592.555176 1481.786377 1550.082031 -0.502174 90.144829 -88.349098
 przedklejem 384.257111 1902.691406 1600.183838 -0.637506 90.146141 -88.364769
-przedodlleft 1218.669312 -529.589539 1499.546021 174.294434 179.802353 -96.141235
-przedodlright -1262.750610 -185.535843 149.939087 -175.109222 179.925797 4.890041
-rotation -1272.750610 -165.535843 249.939087 90.000748 90.006325 -89.926071
+przedodlleft 1829.968506 -205.522552 152.061691 174.273270 179.800568 -6.162616
+przedodlright -1553.750610 -185.535843 827.939087 -175.109222 179.925797 4.890041
+rotation 1849.968506 -185.522552 252.061691 90.435844 89.978592 -89.801712
 t1 230.000000 60.000000 0.000000 0.000000 0.000000 0.000000
 t2 -230.000000 60.000000 0.000000 0.000000 0.000000 0.000000
 t3 230.000000 60.000000 600.000000 0.000000 0.000000 0.000000
@@ -5155,8 +5156,8 @@ t5 230.000000 -250.000000 600.000000 0.000000 0.000000 0.000000
 t6 -230.000000 -250.000000 600.000000 0.000000 0.000000 0.000000
 t7 230.000000 -250.000000 0.000000 0.000000 0.000000 0.000000
 t8 -230.000000 -250.000000 0.000000 0.000000 0.000000 0.000000
-temp_act_pos -501.085297 1316.848022 1540.277100 0.013605 97.675835 -89.748322
-temp_base_pos -501.085297 1400.000000 1250.000000 0.013605 97.675842 -89.748322
+temp_act_pos -501.085449 1316.848999 1540.282593 0.013726 97.675705 -89.747993
+temp_base_pos -501.085449 1400.000000 1250.000000 0.013726 97.675713 -89.747993
 tool1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 .END
 .JOINTS
@@ -5164,25 +5165,25 @@ tool1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 #after_pick_c_r -16.728001 2.238000 -35.458000 -79.330002 -102.957001 129.186005
 #before_pick_c_l -23.143278 24.246349 -12.314540 -61.488117 -96.475853 132.202271
 #before_pick_c_r -28.492001 10.099000 -30.847000 -57.396000 -97.843002 138.145004
-#beforelas 59.639294 -3.173917 -16.662548 -112.852386 -32.905548 116.295349
+#beforelas 59.639294 -3.259172 -13.006206 -107.279266 -31.619528 109.709183
 #befrotate 51.435001 -16.537001 -32.171001 -109.612000 -41.081001 114.825996
 #homepos -28.805002 1.845000 -13.956000 -73.426003 -115.017998 111.727997
 #laser 60.154728 5.014921 -33.120663 -137.848373 -47.258308 148.080811
 #palmid_l 48.924915 -17.022818 0.104048 0.002484 -107.133560 42.221519
 #palmid_l_6 62.999294 -35.717049 -16.310297 -0.001932 -19.417274 0.002328
 #palmid_l_61 62.999104 -35.716362 -16.310984 -0.001932 -19.417501 180.011093
-#palmid_r -62.999485 -24.563305 -7.997243 0.000276 -106.569084 -0.001108
+#palmid_r -62.998913 -21.957985 -0.918783 0.000552 -111.043144 -0.000943
 #palmid_r_6 -63.000061 -41.048691 -30.539408 0.000280 -10.499490 -0.000350
 #palmid_r_61 -63.000252 -41.048466 -30.540094 0.000000 -10.499719 -179.978867
 #pick_c_l -12.396678 29.197556 -22.822910 -80.564377 -98.095863 142.830048
 #pick_c_r -16.308945 16.100826 -42.325459 -76.284370 -98.932533 149.632965
 #rotmid 54.391998 -4.735000 14.600000 0.001000 -109.342003 36.606998
 #rotpick 68.690926 27.452122 34.486580 0.156741 -96.776558 21.207163
-#temp_home_pos -27.377045 8.324512 -20.331264 -69.129494 -109.603691 124.426682
+#temp_home_pos -27.377621 8.324512 -20.331722 -69.128937 -109.603691 124.427086
 .END
 .REALS
-actual_trq = 1.70291
-actualstatus = 2
+actual_trq = 1.88289
+actualstatus = 3
 cartdelivered1 = 51
 cartdelivered2 = 54
 cartonclosebag1 = 65
@@ -5244,7 +5245,7 @@ placedleft = 41
 placedright = 42
 pnar_offset_zm = 0
 pnar_offset_zp = 0
-programnumber = 2
+programnumber = 3
 programready = 1033
 putleft = 1061
 putright = 1063
@@ -5272,8 +5273,8 @@ robotrdytopushl = 59
 robotrdytopushr = 60
 rotateleft = 1064
 rotateright = 1065
-row = 2
-wdrugastrone = 0
+row = 0
+wdrugastrone = 1
 wdrugastronel = 0
 wingsnok = 1075
 x_base = 200
