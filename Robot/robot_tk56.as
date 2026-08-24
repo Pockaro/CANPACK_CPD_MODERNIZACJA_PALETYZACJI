@@ -23,7 +23,7 @@
 .*   [Shipment setting data] 
 .*There is no Shipment setting data.
 .***************************************************************************
-.NETCONF     10.19.82.165,"TIMESYS-",255.255.255.0,10.19.82.1,0.0.0.0,0.0.0.0," "
+.NETCONF     10.19.82.165,"timesys-",255.255.255.0,10.19.82.1,0.0.0.0,0.0.0.0," "
 .NETCONF2     192.168.0.2,255.255.255.0,0.0.0.0
 .ROBOTDATA1
 ZROBOT.TYPE    34  73   6 7666     -116686   BX100L-C001 ( 2026-02-09 12:08 )
@@ -430,7 +430,7 @@ ZSETRGLIFE_LCTYPE    1   1   1   1   1   1   0   0   0   0   0   0   0   0   0  
 ZSETRGLIFE_EFA       -0.002900      -0.002900      -0.002900       0.000100       0.000100       0.000100       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
 ZSETRGLIFE_EFB        1.267000       1.267000       1.267000       0.518400       0.518400       0.518400       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305       0.745305
 ZSETRGLIFE_EFC        0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
-ZSETRGLIFE_USED        0.487669      34.649296      19.677746       1.252317       0.066283       0.822106       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
+ZSETRGLIFE_USED        0.487675      34.650204      19.678644       1.252350       0.066289       0.822133       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000
 CBS_TOOL_AREAMON_ATTRI        255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255       255
 CBS_COUPFA_SUB1       0      0     0.000
 CBS_COUPFA_SUB2       0      0     0.000
@@ -861,7 +861,7 @@ ZGASPRESS_DATAMAX         60
 ZGASPRESS_PRESS  0.000 12.100 0.000 0.000 0.000 0.000   757596153
 ZGASPRESS_CALDIST  1000000.000 1000000.000 1000000.000 1000000.000 1000000.000 1000000.000          -1   736669023
 ZGASPRESS_CALTIME  168.000 168.000 168.000 168.000 168.000 168.000   -54788097
-ZGASPRESS_PRATE  0.000 106.593 0.000 0.000 0.000 0.000   360854973
+ZGASPRESS_PRATE  0.000 98.021 0.000 0.000 0.000 0.000   377708208
 ZGASPRESS_DIST  0.000 0.000 0.000 0.000 0.000 0.000          -1
 ZGASPRESS_CALFSTEND  OFF  ON   OFF  OFF  OFF  OFF   -4949
 ZSETPRM_ACDCSUP_SW      0.000    60.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000   460324863
@@ -1498,35 +1498,35 @@ ZSWITCH ZFIX_CALL_1STEPPG ON   -523
 .END
 .OPE_INFO1
 OPEINFO  34 73 6 7666  1643117497  ;(22/1/25 13:31:37) BX100L-C001 
-CONT_TIM  21450.5 
-SERV_TIM  9676.1 
-MTON_CNT  24675 
-ESTP_CNT  1673 
-BRKE_CNT  31245 
-CON_PWR  3820.252 
-SUP_PWR  3820.252 
+CONT_TIM  21569.4 
+SERV_TIM  9679.8 
+MTON_CNT  24741 
+ESTP_CNT  1683 
+BRKE_CNT  31311 
+CON_PWR  3832.217 
+SUP_PWR  3832.217 
 REG_PWR  0.000 
-MOVE_TJT  1568.8 1852.6 1912.7 1247.7 1844.1 1656.6 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-DIST_DJT  77418.787 86101.883 125886.570 72408.418 125806.038 169848.011 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-DIST_DJT_PLUS  38712.254 43049.471 62947.390 36217.019 62909.378 84918.725 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-OPEINFO TP_BKLIGHT  0 2390.2 50000 
+MOVE_TJT  1569.0 1852.8 1912.9 1247.8 1844.3 1656.7 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+DIST_DJT  77421.594 86105.427 125891.579 72411.274 125809.282 169852.958 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+DIST_DJT_PLUS  38713.617 43051.247 62949.880 36218.411 62910.997 84921.235 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+OPEINFO TP_BKLIGHT  0 2393.8 50000 
 OPEINFO MC  0 0 2000000 0 0 2000000 0 0 2000000 
 OPEINFO PARTS1  0 0 0 0 0 0 0 0 0 0 0 
 OPEINFO PARTS2  0 0 0 0 0 0 0 0 0 0 0 
 OPEINFO PARTS3  0 0 0 0 0 0 0 0 0 0 0 
 M_OPEINFO  34 73 6 7666  1643024231  ;(22/1/24 11:37:11) BX100L-C001 
-M_CONT_TIM  21455.0 
-M_SERV_TIM  9677.0 
-M_MTON_CNT  24727 
-M_ESTP_CNT  1674 
-M_BRKE_CNT  31327 
-M_CON_PWR  3821.886 
-M_SUP_PWR  3821.886 
+M_CONT_TIM  21573.8 
+M_SERV_TIM  9680.7 
+M_MTON_CNT  24793 
+M_ESTP_CNT  1684 
+M_BRKE_CNT  31393 
+M_CON_PWR  3833.851 
+M_SUP_PWR  3833.851 
 M_REG_PWR  0.000 
-M_MOVE_TJT  1569.1 1852.9 1913.0 1248.0 1844.4 1656.9 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-M_DIST_DJT  77456.680 86121.138 125912.621 72465.072 125847.902 169912.201 2.760 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-M_DIST_DJT_PLUS  8807.136 10567.732 15825.404 8046.945 10386.700 16607.210 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
-HOUR_MTR  21455.0 
+M_MOVE_TJT  1569.3 1853.1 1913.2 1248.1 1844.6 1657.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+M_DIST_DJT  77459.487 86124.682 125917.630 72467.928 125851.145 169917.148 2.760 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+M_DIST_DJT_PLUS  8808.499 10569.508 15827.894 8048.337 10388.319 16609.720 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+HOUR_MTR  21573.8 
 .END
 .SYSDATA
 REG_POINT       0
@@ -2235,7 +2235,7 @@ PCSTPWDOGTIME[5]         10
 CPU_HWCHK_TEMP      95000
 CPU_HWCHK_VOLT      5     5     5     5     5     5
 BKLIGHT_OFFTIME        600
-TOOLSHAPE1    255   230.000    60.000     0.000  -230.000    60.000     0.000   230.000    60.000   600.000  -230.000    60.000   600.000   230.000  -250.000   600.000  -230.000  -250.000   600.000   230.000  -250.000     0.000  -230.000  -250.000     0.000
+TOOLSHAPE1    255   230.000    60.000     0.000  -230.000    60.000     0.000   230.000    60.000   620.000  -230.000    60.000   620.000   230.000  -250.000   620.000  -230.000  -250.000   620.000   230.000  -250.000     0.000  -230.000  -250.000     0.000
 TOOLSHAPE2      0     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
 TOOLSHAPE3      0     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
 TOOLSHAPE4      0     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
@@ -2439,7 +2439,7 @@ SWITCH CLOCK_SYNC_HI_PRIO OFF
 .CONDITION
 AS_VER       ASE_010300Z5M
 SV_VER       SVE_08000006C
-ELOG_NUM            292
+ELOG_NUM            369
 CHK_ONCE      255
 MAN_SPEED     4
 CHK_SPEED     4
@@ -2473,20 +2473,20 @@ CINT_PRG_ACCEL    100.000
 CINT_PRM_DECEL    100.000
 CINT_PRG_DECEL    100.000
 PRG_ACCEL_ORG    100.000
-PRG_SPEED_ORG    100.000
+PRG_SPEED_ORG     10.000
 PRG_DECEL_ORG    100.000
 PRG_JT_ACCEL    100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000
 PRG_JT_DECEL    100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000
 PRM_JT_ACCEL    100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000
 PRM_JT_DECEL    100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000
-STEP1ENV_CALL_PRGNAME laser
+STEP1ENV_CALL_PRGNAME pg0
 STEP1ENV_PRG_STEP          1
 STEP2ENV0_CALL_PRGNAME autostart.pc
-STEP2ENV0_PRG_STEP         23
+STEP2ENV0_PRG_STEP         17
 STEP2ENV1_CALL_PRGNAME autostart2.pc
 STEP2ENV1_PRG_STEP         10
-USR_DO1      00010101101000110000000000000000
-USR_DO2      00010000000010000000001100000000
+USR_DO1      00001100110010000000000000000000
+USR_DO2      00000000000000000000000100000000
 USR_DO3      00000000000000000000000000000000
 USR_DO4      00000000000000000000000000000000
 USR_DO5      00000000000000000000000000000000
@@ -3364,6 +3364,28 @@ MGGASPRESS_FIXEDPRESS 70 1
 MGGASPRESS_UNMATCH 1 200 1250 200 
 MGGASPRESS_OVERPRESS 75 224 
 .END
+.INTER_PANEL_D
+0,8,"programnumber","program nr","",10,15,4,2,0
+1,8,"actualstatus","status","",10,15,4,2,0
+2,8,"row","row","",10,0,2,1,0
+3,8,"column","column","",10,0,2,1,0
+4,8,"layer","layer","",10,0,2,1,0
+5,8,"actual_trq","Actual trq","5 axis",10,0,3,2,0
+6,8,"empty_trq","Empty trq","Threshold",10,0,3,2,0
+.END
+.INTER_PANEL_TITLE
+"",0
+"",0
+"",0
+"",0
+"",0
+"",0
+"",0
+"",0
+.END
+.INTER_PANEL_COLOR_D
+182,3,224,244,28,159,252,255,251,255,0,31,2,241,52,219,
+.END
 .SIG_COMMENT
 .END
 .CBSDATA
@@ -3440,10 +3462,10 @@ MGGASPRESS_OVERPRESS 75 224
 109,ArmMonitorLine/X2,0,0,-230,230,-1160,-1160,
 110,ArmMonitorLine/Y2,-230,230,0,0,-228,120,
 111,ArmMonitorLine/Z2,150,150,150,150,301,301,
-112,IsValidAreaMon,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,
-113,XorO,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-114,YorA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-115,ZorT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+112,IsValidAreaMon,00000511,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000001,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,
+113,XorO,0,230,-230,230,-230,230,-230,230,-230,0,0,0,0,0,0,0,0,0,0,0,0,0,
+114,YorA,0,60,60,60,60,-250,-250,-250,-250,0,0,0,0,0,0,0,0,0,0,0,0,0,
+115,ZorT,0,0,0,620,620,620,620,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 116,XorO,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 117,YorA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 118,ZorT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3582,18 +3604,18 @@ MGGASPRESS_OVERPRESS 75 224
 309,SelMonIsValidAllLines,1,
 310,SelMonIsValidAllPoints,1,
 311,SelMonIsValidAllLines,1,
-312,IsValidStopDistanceEstimate,1,
-313,ConstMonitorZ+Z-,10000,-10000,
+312,IsValidStopDistanceEstimate,0,
+313,ConstMonitorZ+Z-,3000,-3000,
 314,ConstMonitorAttribute,1,1,1,1,0,0,0,0,
-315,ConstMonitorXY,-10000,-10000,10000,-10000,10000,10000,-10000,10000,0,0,0,0,0,0,0,0,
-316,ConstProhibitZ+Z-,0,0,
-317,ConstProhibitValidAreaMon,0,
-318,ConstProhibitAttribute,0,0,0,0,
-319,ConstProhibitXY,0,0,0,0,0,0,0,0,
-320,ConstProhibitZ+Z-,0,0,
-321,ConstProhibitValidAreaMon,0,
-322,ConstProhibitAttribute,0,0,0,0,
-323,ConstProhibitXY,0,0,0,0,0,0,0,0,
+315,ConstMonitorXY,2300,-1200,2300,3000,-2200,3000,-2200,-1200,0,0,0,0,0,0,0,0,
+316,ConstProhibitZ+Z-,3000,-3000,
+317,ConstProhibitValidAreaMon,1,
+318,ConstProhibitAttribute,1,1,1,1,
+319,ConstProhibitXY,600,-1100,600,-1000,-600,-1000,-600,-1100,
+320,ConstProhibitZ+Z-,1040,-3000,
+321,ConstProhibitValidAreaMon,1,
+322,ConstProhibitAttribute,1,1,1,1,
+323,ConstProhibitXY,2100,600,2100,1100,1450,1100,1450,600,
 324,ConstProhibitZ+Z-,0,0,
 325,ConstProhibitValidAreaMon,0,
 326,ConstProhibitAttribute,0,0,0,0,
@@ -3766,1425 +3788,1374 @@ MGGASPRESS_OVERPRESS 75 224
 1103,NetworkIO,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1104,NetworkIO,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 .END
-.IDE_CMT
-@@@ PROJECT @@@
-Numery krokow sekwencji
-0 - inicjalizacja programu i zmiennych
-10 - pobierz karton
-20 - sciagniecie worka
-30 - zamkniecie worka, pierwszy etap przed obracaniem kartonu
-40 - obrot kartonu w lewo w celu zamkniecia worka
-50 - obrot kartonu w prawo w celu zamkniecia worka
-60 - zamkniecie pudelka
-70 - zaklejenie pudelka
-80 - oznakowanie pudelka
-90 - przeorientowanie chwytaka
-100 - zlapanie kartonu od gory
-@@@ PROJECTNAME @@@
-20231023_1324_canpack
-@@@ HISTORY @@@
-@@@ INSPECTION @@@
-@@@ CONNECTION @@@
-Standard 1
-192.168.0.2
-23
-@@@ PROGRAM @@@
-0:pg999:F
-0:carton:F
-0:homing:F
-0:laser:F
-0:palletize_left:F
-0:palletize_right:F
-0:pg0:F
-0:service_carton:F
-0:service_pallet:F
-0:teach:F
-0:autostart.pc:B
-0:autostart2.pc:B
-@@@ TRANS @@@
-@@@ JOINTS @@@
-@@@ REALS @@@
-@@@ STRINGS @@@
-@@@ INTEGER @@@
-@@@ SIGNALS @@@
-@@@ TOOLS @@@
-@@@ BASE @@@
-@@@ FRAME @@@
-@@@ BOOL @@@
-@@@ DEFAULTS @@@
-BASE: NULL
-TOOL: NULL
-.END
-.INTER_PANEL_D
-0,8,"programnumber","program nr","",10,15,4,2,0
-1,8,"actualstatus","status","",10,15,4,2,0
-2,8,"row","row","",10,0,2,1,0
-3,8,"column","column","",10,0,2,1,0
-4,8,"layer","layer","",10,0,2,1,0
-5,8,"actual_trq","Actual trq","5 axis",10,0,3,2,0
-6,8,"empty_trq","Empty trq","Threshold",10,0,3,2,0
-.END
-.INTER_PANEL_TITLE
-"",0
-"",0
-"",0
-"",0
-"",0
-"",0
-"",0
-"",0
-.END
-.INTER_PANEL_COLOR_D
-182,3,224,244,28,159,252,255,251,255,0,31,2,241,52,219,
-.END
-.PROGRAM pg999() #58
-	JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-81.528,-47.184,-57.535,3.139,70.344,123.04] ;
-	JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-81.528,31.75,62.183,3.1392,32.69,123.04] ;
-	JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-81.528,-47.184,-57.535,3.1392,70.344,123.04] ;
-	JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-5.4202,-60,-47.451,162.74,3.3016,-130.71] ;
-.END
-.PROGRAM carton() #133163
-	actualstatus = 2
-	;inputs -----------------------------------------
-	; robot table
-	rdypickleft = 1049
-	rdypickleftsoon = 1050
-	leftpushed = 1066
-	rdytopickright = 1051
-	rdytopickrights = 1052
-	rightpushed = 1067
-	;bag folding
-	rdyforcarton = 1053
-	rdyforslide = 1054
-	rdyfortake = 1055
-	rdyclosebag2 = 1071
-	rdyclosebag1 = 1072
-	;carton taping
-	rdyforcartontap = 1056
-	rdyformove1tap = 1073
-	rdyformove2tap = 1057
-	;chwytak
-	openedfull = 1070
-	openedshort = 1069
-	closedtorque = 1068
-	;off sets
-	nar_offset_zp = BITS (1137, 8)
-	nar_offset_zm = BITS (1145, 8)
-	pnar_offset_zp = BITS (1153, 8)
-	pnar_offset_zm = BITS (1161, 8)
-	cbag1_offset_zp = BITS (1169, 8)
-	cbag1_offset_zm = BITS (1177, 8)
-	cbag2_offset_zp = BITS (1185, 8)
-	cbag2_offset_zm = BITS (1193, 8)
-	gstart_offset_z = BITS (1201, 8)
-	gstart_offset_z = BITS (1209, 8)
-	gend_offset_zp = BITS (1217, 8)
-	gend_offset_zm = BITS (1225, 8)
-	;outputs ------------------------------------------
-	;robot table
-	robotrdytopushl = 59
-	robotrdytopushr = 60
-	robotpickedleft = 49
-	robotpickedrigh = 50
-	; bag folding
-	cartdelivered1 = 51
-	cartonslided = 52
-	cartontaken = 53
-	cartonclosebag2 = 64
-	cartonclosebag1 = 65
-	;carton taping
-	deliveredstart = 54
-	deliveredpos1 = 66
-	deliveredpos2 = 55
-	; chwytak
-	openfull = 62
-	openshort = 61
-	closetorque = 63
-	;-------------------------------------------------
-	BASE NULL
-	;............
-	JMOVE #homepos
-	;.............
-	WHILE NOT SIG (rdypickleftsoon) AND NOT SIG (rdytopickrights) DO ; czekanie na ktorys sygnal gotowosci soon
-		TWAIT 0.1
-	END
-	IF SIG (rdypickleftsoon) THEN ; jezeli lewy gotowy soon
-	JMOVE #before_pick_c_l; przejazd nad pozycje obliczona przed kartonem lewo
-	SWAIT rdypickleft ; czekanie na sygnal gotowosci do pobrania lewo
-	BREAK
-	LMOVE #pick_c_l
-	BREAK
-	SIGNAL robotrdytopushl ; wystawienie sygnalu
-	SWAIT leftpushed ; czekanie na sygnal z plc
-	SIGNAL -robotrdytopushl ; zdjecie sygnalu
-	SIGNAL -openfull
-	SIGNAL openshort
-	SIGNAL -closetorque
-	SWAIT openedshort ; czekanie na zamkniecie
-	SIGNAL -openfull
-	SIGNAL -openshort
-	SIGNAL closetorque
-	SWAIT closedtorque ; czekanie na zamkniecie
-	SIGNAL -closetorque ; zdjecie sygnalu
-	LMOVE #after_pick_c_l
-	BREAK
-	SIGNAL robotpickedleft ; wystawienie sygnalu
-	SWAIT -leftpushed ; czkeanie na spadek sygnalu z plc
-	SIGNAL -robotpickedleft ; zdjecie sygnalu potwierdzenia
-ELSE ; jezeli prawy gotowy soon
-	JMOVE #before_pick_c_r; przejazd nad pozycje obliczona przed kartonem lewo
-	SWAIT rdytopickright ; czekanie na sygnal gotowosci do pobrania prawo
-	BREAK
-	LMOVE #pick_c_r
-	BREAK
-	SIGNAL robotrdytopushr ; wystawienie sygnalu
-	SWAIT rightpushed ; czekanie na sygnal z plc
-	SIGNAL -robotrdytopushr ; zdjecie sygnalu
-	SIGNAL -openfull
-	SIGNAL openshort
-	SIGNAL -closetorque
-	SWAIT openedshort ; czekanie na zamkniecie
-	SIGNAL -openfull
-	SIGNAL -openshort
-	SIGNAL closetorque
-	SWAIT closedtorque ; czekanie na zamkniecie
-	SIGNAL -closetorque ; zdjecie sygnalu
-	LMOVE #after_pick_c_r
-	BREAK
-	SIGNAL robotpickedrigh ; wystawienie sygnalu
-	SWAIT -rightpushed ; czkeanie na spadek sygnalu z plc
-	SIGNAL -robotpickedrigh ; zdjecie sygnalu potwierdzenia
-END
-SWAIT rdyforcarton ; czekanie na gotowosc ukladu
-;............
-SPEED 60
-ACCURACY 10
-;............
-IF pnar_offset_zp > 0 THEN
-	JMOVE SHIFT (podnarozniki BY , , pnar_offset_zp)
-ELSE
-	IF pnar_offset_zm > 0 THEN
-		JMOVE SHIFT (podnarozniki BY , , -pnar_offset_zm)
-	ELSE
-		JMOVE podnarozniki; przejazd pod uklad skladania
-	END
-END
-IF nar_offset_zp > 0 THEN
-	LMOVE SHIFT (narozniki BY , , nar_offset_zp)
-ELSE
-	IF nar_offset_zm > 0 THEN
-		LMOVE SHIFT (narozniki BY , , -nar_offset_zm)
-	ELSE
-		LMOVE narozniki; przejazd do pozycji opuszczania lapek do podnoszenia worka
-	END
-END
-BREAK
-SIGNAL cartdelivered1 ; wystawienie sygnalu do plc
-SWAIT rdyforslide ; czekanie az bedzie mozna zjechac w dol
-SIGNAL -cartdelivered1 ; zdjecie sygnalu
-SPEED 100
-IF pnar_offset_zp > 0 THEN
-	LMOVE SHIFT (podnarozniki BY , , pnar_offset_zp)
-ELSE
-	IF pnar_offset_zm > 0 THEN
-		LMOVE SHIFT (podnarozniki BY , , -pnar_offset_zm)
-	ELSE
-		LMOVE podnarozniki; przejazd pod uklad skladania
-	END
-END
-BREAK
-SIGNAL cartonslided ; wystawienie zakonczenie wywijania
-SWAIT rdyclosebag2 ; oczekiwanie na zamkniecie silownika
-SIGNAL -cartonslided
-IF cbag2_offset_zp > 0 THEN
-	JMOVE SHIFT (p_closebag2 BY , , cbag2_offset_zp)
-ELSE
-	IF cbag2_offset_zm > 0 THEN
-		JMOVE SHIFT (p_closebag2 BY , , -cbag2_offset_zm)
-	ELSE
-		JMOVE p_closebag2; przejazd do pozycji zamykania worka pod katem
-	END
-END
-BREAK
-SIGNAL cartonclosebag2 ; wystawienie osiagniecia pozycji
-SWAIT rdyclosebag1 ; czekanie na sygnal
-SIGNAL -cartonclosebag2 ; wylaczenie sygnalu
-IF cbag1_offset_zp > 0 THEN
-	JMOVE SHIFT (p_closebag1 BY , , cbag1_offset_zp)
-ELSE
-	IF cbag1_offset_zm > 0 THEN
-		JMOVE SHIFT (p_closebag1 BY , , -cbag1_offset_zm)
-	ELSE
-		JMOVE p_closebag1; przejazd do pozycji po zamknieciu
-	END
-END
-BREAK
-SIGNAL cartonclosebag1 ; wystawienie osiagniecia pozycji
-SWAIT rdyfortake ; czekanie az bedzie mozna odjechac
-SIGNAL -cartonclosebag1 ; zdjecie sygnalu
-POINT calculate = p_closebag1 + TRANS (, 70) ; obnizenie po zagieciu worka
-LMOVE calculate; ruch
-SIGNAL cartontaken ; wyslanie informacji o zabraniu kartonu
-SWAIT -rdyfortake ; czekanie na brak sygnalu
-SIGNAL -cartontaken ; zerowanie zygnalu po sekwencji
-SWAIT rdyforcartontap ; czekanie na gotowosc ukladu
-SPEED 100
-LMOVE SHIFT (przedklejem BY -230); dojazd do pozycji przed zaklejaniem
-SPEED 25
-LMOVE przedklejem; dojazd do pozycji przed zaklejaniem
-BREAK
-SIGNAL deliveredstart ; wystawienie sygnalu dostarczenia kartonu
-SWAIT rdyformove1tap ; czekanie na zamknięcie tylnej klapy
-SPEED 100
-SIGNAL -deliveredstart ; sciagniecie sygnalu
-LMOVE fold; dojazd do pozycji zamykania klap
-BREAK
-SIGNAL deliveredpos1
-SWAIT rdyformove2tap
-SIGNAL -deliveredpos1
-;.............
-;.............
-ABS.SPEED ON
-;.............
-SPEED 250 MM/S
-;.............
-IF gstart_offset_z > 0 THEN
-	LMOVE SHIFT (gluestart BY , , gstart_offset_z)
-ELSE
-	IF gstart_offset_z > 0 THEN
-		LMOVE SHIFT (gluestart BY , , -gstart_offset_z)
-	ELSE
-		LMOVE gluestart; dojazd do pozycji zamykania klap
-	END
-END
-BREAK
-;.............
-ABS.SPEED OFF
-;.............
-;.............
-ABS.SPEED ON
-;.............
-SPEED 250 MM/S
-;.............
-IF gend_offset_zp > 0 THEN
-	LMOVE SHIFT (glueend BY , , gend_offset_zp)
-ELSE
-	IF gend_offset_zm > 0 THEN
-		LMOVE SHIFT (glueend BY , , -gend_offset_zm)
-	ELSE
-		LMOVE glueend; przejazd przez zaklejarke
-	END
-END
-BREAK
-;.............
-ABS.SPEED OFF
-;.............
-SIGNAL deliveredpos2 ; wystawienie do plc
-SWAIT -rdyformove2tap ; czekanie na sygnal z plc
-SIGNAL -deliveredpos2 ; zdjecie sygnalu
-POINT calculate = glueend + TRANS (, 90) ; obnizenie po zaklejeniu
-LMOVE calculate; ruch
-LMOVE posrednia; przejazd do pozycji posredniej po zaklejaniu
-RETURN
-.END
-.PROGRAM homing() #5553
-	;.............
-	RESET ;reset signals
-	;.............
-	;WAIT SIG (23)
-	;.............
-	SIGNAL openfull
-	SIGNAL -openshort
-	SIGNAL -closetorque
-	SWAIT openedfull
-	SIGNAL -openfull
-	;.............
-	actualstatus = 1
-	;.............
-	IF NOT SIG (23) THEN
-		;.............
-		x_base = 200 ;defining homing x [mm]
-		y_base = 650 ;defining homing y [mm]
-		y_base_2 = 1400 ;defining homing y 2 [mm]
-		z_base = 1250 ;defining homing high [mm]
-		z_base_2 = 1700 ;defining homing high 2 [mm]
-		;.............
-		HERE temp_act_pos ;defining actual robot position in transformation value
-		;.............
-		IF (DX (temp_act_pos) > -700) AND (DY (temp_act_pos) > y_base) THEN
-			;.............
-			POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
-			;.............
-			POINT/Z temp_base_pos = TRANS (, , z_base) ;assigned temporary base high to temporary base position
-			;.............
-			SPEED 10
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;............
-			IF DX (temp_act_pos) > x_base THEN
-				;............
-				POINT/Y temp_base_pos = TRANS (, y_base) ;assigned temporary base x to temporary base position
-				;............
-			ELSE
-				;............
-				POINT/Y temp_base_pos = TRANS (, y_base_2) ;assigned temporary base x to temporary base position
-				;............
-			END
-			;............
-			SPEED 10
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;............
-			IF DX (temp_act_pos) > x_base THEN
-				;............
-				POINT/X temp_base_pos = TRANS (x_base) ;assigned temporary base x to temporary base position
-				;............
-				SPEED 10
-				ACCURACY 1
-				;............
-				LMOVE temp_base_pos;go to temporary base position
-				;.............
-				BREAK
-				;.............
-				POINT/Z temp_base_pos = TRANS (, , z_base_2) ;assigned temporary base z to temporary base position
-				;............
-				SPEED 10
-				ACCURACY 1
-				;............
-				LMOVE temp_base_pos;go to temporary base position
-				;.............
-				BREAK
-				;.............
-			END
-			;.............
-		ELSE
-			;.............
-			POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
-			;.............
-			POINT/Z temp_base_pos = TRANS (, , z_base_2) ;assigned temporary base z to temporary base position
-			;............
-			SPEED 10
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;.............
-			IF DX (temp_act_pos) > 0 THEN
-				;............
-				POINT/X temp_base_pos = TRANS (900) ;assigned temporary base x to temporary base position
-				;............
-			ELSE
-				;............
-				POINT/X temp_base_pos = TRANS (-900) ;assigned temporary base x to temporary base position
-				;............
-			END
-			;............
-			SPEED 10
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;.............
-		END ;end if
-		;.............
-		HERE #temp_home_pos
-		;.............
-		SPEED 10
-		ACCURACY 1
-		;............
-		JMOVE #PPOINT (DEXT (#homepos, 1), DEXT (#temp_home_pos, 2), DEXT (#temp_home_pos, 3), DEXT (#temp_home_pos, 4), DEXT (#temp_home_pos, 5), DEXT (#temp_home_pos, 6))
-		;.............
-		BREAK
-		;.............
-		SPEED 10
-		ACCURACY 1
-		;............
-		JMOVE #PPOINT (DEXT (#homepos, 1), DEXT (#temp_home_pos, 2), DEXT (#homepos, 3), DEXT (#temp_home_pos, 4), DEXT (#temp_home_pos, 5), DEXT (#temp_home_pos, 6))
-		;.............
-		BREAK
-		;............
-		SPEED 10
-		ACCURACY 1
-		;............
-		JMOVE #PPOINT (DEXT (#homepos, 1), DEXT (#temp_home_pos, 2), DEXT (#homepos, 3), DEXT (#homepos, 4), DEXT (#homepos, 5), DEXT (#homepos, 6))
-		;.............
-		BREAK
-		;............
-		SPEED 10
-		ACCURACY 1
-		;............
-	END
-	;............
-	JMOVE #homepos
-	;.............
-	RETURN
-.END
-.PROGRAM laser() #143075
-	actualstatus = 3
-	;...........
-	;SYGNALY
-	;INPUTS
-	readyformark = 1058
-	cartonmarked = 1059
-	awaryjnywaga = 1076
-	checked_down = 1074
-	wingsnok = 1075
-	;OUTPUTS
-	cartondelivered = 56
-	check_down = 67
-	empty_carton = 68
-	full_carton = 69
-	;...........
-	SPEED 50
-	ACCURACY 20
-	;...........
-	LMOVE #beforelas; pozycja przed podjazdem do lasera
-	;.............
-	SWAIT readyformark
-	;...........
-	SPEED 30
-	ACCURACY 1
-	;...........
-	LAPPRO #laser, 100
-	;...........
-	;empty_trq = 1.33
-	;...........
-	TWAIT 1
-	actual_trq = TRQNM (5)
-	;...........
-	;IF actual_trq <= empty_trq THEN
-	;  SIGNAL empty_carton
-	;  SWAIT empty_cart_con
-	;  SIGNAL -empty_carton
-	;  SIGNAL -full_carton
-	;ELSE
-	;  SIGNAL full_carton
-	;  SWAIT empty_cart_con
-	;  SIGNAL -full_carton
-	;  SIGNAL -empty_carton
-	;END ;end if
-	;...........
-	SPEED 30
-	ACCURACY 1
-	LMOVE #laser; pozycja wypalania
-	;.............
-	BREAK
-	;.............
-	SIGNAL openfull
-	SIGNAL -openshort
-	SIGNAL -closetorque
-	SWAIT openedfull
-	SIGNAL -openfull
-	;.............
-	SIGNAL cartondelivered
-	;...........
-	SPEED 100
-	ACCURACY 20
-	;...........
-	LAPPRO #laser, 400; pozycja przed wypalaniem
-	BREAK
-	;...........
-	SPEED 100
-	ACCURACY 20
-	;...........
-	SWAIT -wingsnok
-	JMOVE #befrotate; pozycja przed podjazdem do lasera
-	;...........
-	SPEED 100
-	ACCURACY 20
-	;...........
-	LAPPRO #rotpick, 200; pozycja nad pobraniem z rotacja
-	IF SIG (wingsnok) THEN
-		LAPPRO #rotpick, 200; pozycja nad pobraniem z rotacja
-	END
-	SWAIT -wingsnok
-	;...........
-	SPEED 30
-	ACCURACY 1
-	;...........
-	LMOVE #rotpick; pozycja pobrania z rotacja
-	WHILE NOT SIG (cartonmarked) AND NOT SIG (awaryjnywaga) DO
-		TWAIT 0.1
-	END
-	IF NOT SIG (awaryjnywaga) THEN
-		SWAIT cartonmarked
-	ELSE
-		GOTO 100
-	END
-	;.............
-	SIGNAL -openfull
-	SIGNAL openshort
-	SIGNAL -closetorque
-	SWAIT openedshort ; czekanie na zamkniecie
-	SIGNAL -openfull
-	SIGNAL -openshort
-	SIGNAL closetorque
-	SWAIT closedtorque ; czekanie na zamkniecie
-	SIGNAL -closetorque ; zdjecie sygnalu
-	;...........
-	SPEED 20
-	ACCURACY 1
-	;...........
-	LAPPRO #rotpick, 80; pozycja nad pobraniem z rotacja
-	BREAK
-	;...........
-	SIGNAL -cartondelivered
-	SIGNAL check_down
-	SWAIT checked_down
-	SIGNAL -check_down
-	;...........
-	SPEED 100
-	ACCURACY 20
-	;...........
-	LAPPRO #rotpick, 200; pozycja nad pobraniem z rotacja
-	;SIGNAL -cartondelivered
-	;...........
-	SPEED 100
-	ACCURACY 100
-	;...........
-	LMOVE #rotmid; pozycja posrednia miedzy bazowa z obroconym chwytakiem
-	RETURN
-	100
-	;
-	SPEED 20
-	ACCURACY 100
-	LMOVE #awaryjny1
-	;
-	SPEED 20
-	ACCURACY 100
-	JMOVE #awaryjny2
-	;
-	SPEED 20
-	ACCURACY 100
-	JMOVE #awaryjny3
-	;
-	JMOVE #homepos
-	;
-	SWAIT -awaryjnywaga
-	RETURN
-.END
-.PROGRAM palletize_left() #69365
-	actualstatus = 4
-	;..............
-	wdrugastronel = 0
-	BASE NULL
-	offsetleft = 1
-	;..............
-	;SYGNALY
-	;INPUTS
-	putleft = 1061
-	rotateleft = 1064
-	;OUTPUTS
-	robotplacedleft = 57
-	;..............
-	; wymiary kartonu
-	cartonlenght = 495
-	cartonwidth = 291
-	cartonheight = 339
-	;ustalenie offsetow od pozycji bazowej
-	;............
-	WAIT SIG (putleft)
-	;............
-	IF SIG (offsetleft) THEN
-		offsetx = 0e+00
-		offsety = 0e+00
-		offsetz = 0e+00
-	END
-	;............
-	;przesuniecie bazowych pozycji o offsety
-	POINT baseleftoffset = SHIFT (baseposleft BY offsetx, offsety, offsetz)
-	;zmienne paletyzacji
-	DO
-		row = BITS (1089, 8)
-		column = BITS (1097, 8)
-		layer = BITS (1105, 8)
-	UNTIL (row >= 0 AND row <= 3 AND column >= 0 AND column <= 1 AND layer >= 0 AND layer <= 5)
-	IF layer >= 5 THEN
-		IF column == 0 THEN
-			column = 1
-		ELSE
-			column = 0
-		END
-	END
-	;.......
-	IF column == 1 THEN
-		IF SIG (rotateleft) THEN
-			IF row == 0 THEN
-				POINT baseleftoffset = SHIFT (baseleftoffset BY -250, 170) + RZ (90)
-			ELSE
-				POINT baseleftoffset = SHIFT (baseleftoffset BY -330, 170) - RZ (90)
-			END
-		ELSE
-			POINT baseleftoffset = SHIFT (baseleftoffset BY , 130) - RZ (180)
-		END
-	END ;end if
-	IF layer < 5 THEN
-		;obliczenie pozycji nad paleta
-		POINT nadpalleft = SHIFT (baseleftoffset BY - ((row * cartonwidth) + 20), - ((column * cartonlenght) + 20))
-		POINT/Z nadpalleft = TRANS (, , 1850)
-		;...........
-		;obliczenie pozycji przed odlozeniem
-		POINT przedodlleft = SHIFT (baseleftoffset BY - ((row * cartonwidth) + 20), - ((column * cartonlenght) + 20), ((layer * cartonheight) + 100))
-		;obliczenie pozycji odlozenia
-		POINT odlleft = SHIFT (baseleftoffset BY - (row * cartonwidth), - (column * cartonlenght), (layer * cartonheight))
-	ELSE
-		;obliczenie pozycji nad paleta
-		POINT nadpalleft = SHIFT (baseleftoffset BY - ((row * cartonwidth) + 20), - ((column * cartonlenght) - 20))
-		POINT/Z nadpalleft = TRANS (, , 1850)
-		;...........
-		;obliczenie pozycji przed odlozeniem
-		POINT przedodlleft = SHIFT (baseleftoffset BY - ((row * cartonwidth) + 20), - ((column * cartonlenght) - 20), ((layer * cartonheight) + 100))
-		;obliczenie pozycji odlozenia
-		POINT odlleft = SHIFT (baseleftoffset BY - (row * cartonwidth), - (column * cartonlenght), (layer * cartonheight))
-	END
-	POINT rotation = odlleft
-	IF row == 1 AND column == 1 AND SIG (rotateleft) THEN
-		POINT rotation = rotation - RX (90)
-		POINT rotation = SHIFT (rotation BY , , 200)
-		wdrugastrone = 1
-	ELSE
-		POINT rotation = rotation + RX (90)
-		POINT rotation = SHIFT (rotation BY , , 200)
-	END
-	;...........
-	;odlozenie kartonu
-	;............
-	WAIT SIG (putleft) ;oczekiwanie na paletyzacje lewa
-	;............
-	SPEED 100
-	ACCURACY 100
-	;............
-	JMOVE #palmid_l
-	POINT palrotl = HERE
-	POINT/Z palrotl = TRANS (, , 1850)
-	JMOVE palrotl
-	POINT palrotl = nadpalleft
-	POINT/X palrotl = TRANS (757)
-	POINT/Y palrotl = TRANS (, 386)
-	POINT/Z palrotl = TRANS (, , 1850)
-	SPEED 100
-	ACCURACY 100
-	JMOVE palrotl
-	;............
-	WAIT SIG (putleft) ;oczekiwanie na paletyzacje lewa
-	;............
-	SPEED 100
-	ACCURACY 10
-	;............
-	LMOVE nadpalleft
-	PALMODE ON
-	;............
-	SPEED 50
-	ACCURACY 30
-	;............
-	LMOVE przedodlleft
-	;............
-	SPEED 50
-	ACCURACY 1
-	;............
-	LAPPRO odlleft, 50
-	;............
-	BREAK
-	;............
-	SPEED 30
-	ACCURACY 1
-	;............
-	LMOVE odlleft
-	;.............
-	SIGNAL -openfull
-	SIGNAL openshort
-	SIGNAL -closetorque
-	SWAIT openedshort ;czekanie na krotkie otworzenie
-	SIGNAL -openshort
-	;............
-	SPEED 100
-	ACCURACY 1
-	;............
-	IF layer < 5 THEN
-		LAPPRO odlleft, 300
-		BREAK
-	ELSE
-		PALMODE OFF
-		LMOVE rotation
-		BREAK
-	END
-	SIGNAL robotplacedleft
-	;............
-	SPEED 100
-	ACCURACY 10
-	;............
-	IF layer < 5 THEN
-		LMOVE nadpalleft
-	ELSE
-		IF wdrugastrone == 0 THEN
-			LMOVE #palmid_l_6
-		ELSE
-			LMOVE #palmid_l_61
-		END
-		wdrugastrone = 0
-	END
-	SIGNAL -robotplacedleft
-	PALMODE OFF
-	;............
-	SPEED 100
-	ACCURACY 100
-	;............
-	JMOVE #palmid_l
-	;.............
-	SIGNAL openfull
-	SIGNAL -openshort
-	SIGNAL -closetorque
-	;.............
-	SPEED 100
-	ACCURACY 100
-	;............
-	JMOVE #homepos
-	SWAIT openedfull
-	SIGNAL -openfull
-	RETURN
-	;.............
-.END
-.PROGRAM palletize_right() #73624
-	actualstatus = 5
-	;..............
-	wdrugastrone = 0
-	BASE NULL
-	offsetright = 1
-	;..............
-	;SYGNALY
-	;INPUTS
-	putright = 1063
-	rotateright = 1065
-	;OUTPUTS
-	robotplacedrigh = 58
-	;..............
-	; wymiary kartonu
-	cartonlenght = 495
-	cartonwidth = 291
-	cartonheight = 339
-	;ustalenie offsetow od pozycji bazowej
-	;............
-	WAIT SIG (putright)
-	;............
-	IF SIG (offsetright) THEN
-		offsetx = 0e+00
-		offsety = 0e+00
-		offsetz = 0e+00
-	END
-	;............
-	;przesuniecie bazowych pozycji o offsety
-	POINT baserightoffset = SHIFT (baseposright BY offsetx, offsety, offsetz)
-	;zmienne paletyzacji
-	DO
-		row = BITS (1113, 8)
-		column = BITS (1121, 8)
-		layer = BITS (1129, 8)
-	UNTIL (row >= 0 AND row <= 3 AND column >= 0 AND column <= 1 AND layer >= 0 AND layer <= 5)
-	IF layer >= 5 THEN
-		IF column == 0 THEN
-			column = 1
-		ELSE
-			column = 0
-		END
-	END
-	;.......
-	IF column == 1 THEN
-		IF SIG (rotateright) THEN
-			IF row == 0 THEN
-				POINT baserightoffset = SHIFT (baserightoffset BY 250, 160) - RZ (90)
-			ELSE
-				POINT baserightoffset = SHIFT (baserightoffset BY 330, 160) + RZ (90)
-			END
-		ELSE
-			POINT baserightoffset = SHIFT (baserightoffset BY , 130) + RZ (180)
-		END
-	END ;end if
-	IF layer < 5 THEN
-		;obliczenie pozycji nad paleta
-		POINT nadpalright = SHIFT (baserightoffset BY ((row * cartonwidth) + 10), - ((column * cartonlenght) + 20))
-		POINT/Z nadpalright = TRANS (, , 1850)
-		;...........
-		;obliczenie pozycji przed odlozeniem
-		POINT przedodlright = SHIFT (baserightoffset BY ((row * cartonwidth) + 10), - ((column * cartonlenght) + 20), ((layer * cartonheight) + 100))
-		;obliczenie pozycji odlozenia
-		POINT odlright = SHIFT (baserightoffset BY (row * cartonwidth), - (column * cartonlenght), (layer * cartonheight))
-	ELSE
-		;obliczenie pozycji nad paleta
-		POINT nadpalright = SHIFT (baserightoffset BY ((row * cartonwidth) + 10), - ((column * cartonlenght) - 20))
-		POINT/Z nadpalright = TRANS (, , 1850)
-		;...........
-		;obliczenie pozycji przed odlozeniem
-		POINT przedodlright = SHIFT (baserightoffset BY ((row * cartonwidth) + 10), - ((column * cartonlenght) - 20), ((layer * cartonheight) + 100))
-		;obliczenie pozycji odlozenia
-		POINT odlright = SHIFT (baserightoffset BY (row * cartonwidth), - (column * cartonlenght), (layer * cartonheight))
-	END
-	POINT rotation = odlright
-	IF row == 1 AND column == 1 AND SIG (rotateright) THEN
-		POINT rotation = rotation - RX (90)
-		POINT rotation = SHIFT (rotation BY , , 200)
-		wdrugastrone = 1
-	ELSE
-		POINT rotation = rotation + RX (90)
-		POINT rotation = SHIFT (rotation BY , , 200)
-	END
-	;...........
-	;odlozenie kartonu
-	;............
-	WAIT SIG (putright) ;oczekiwanie na paletyzacje prawa
-	;............
-	SPEED 100
-	ACCURACY 100
-	;............
-	JMOVE #palmid_l
-	;............
-	SPEED 100
-	ACCURACY 100
-	;............
-	JMOVE #palmid_r
-	POINT palrotr = nadpalright
-	POINT/X palrotr = TRANS (-757)
-	POINT/Y palrotr = TRANS (, 386)
-	POINT/Z palrotr = TRANS (, , 1900)
-	SPEED 100
-	ACCURACY 100
-	JMOVE palrotr
-	;............
-	WAIT SIG (putright) ;oczekiwanie na paletyzacje prawa
-	;............
-	SPEED 100
-	ACCURACY 10
-	;............
-	LMOVE nadpalright
-	PALMODE ON
-	;............
-	SPEED 50
-	ACCURACY 30
-	;............
-	LMOVE przedodlright
-	;............
-	SPEED 50
-	ACCURACY 1
-	;............
-	LAPPRO odlright, 50
-	;............
-	BREAK
-	;............
-	SPEED 30
-	ACCURACY 1
-	;............
-	LMOVE odlright
-	;.............
-	SIGNAL -openfull
-	SIGNAL openshort
-	SIGNAL -closetorque
-	SWAIT openedshort ;czekanie na krotkie otworzenie
-	SIGNAL -openshort
-	;............
-	SPEED 100
-	ACCURACY 1
-	;............
-	IF layer < 5 THEN
-		LAPPRO odlright, 300
-		BREAK
-	ELSE
-		PALMODE OFF
-		LMOVE rotation
-		BREAK
-	END
-	SIGNAL robotplacedrigh
-	;............
-	SPEED 100
-	ACCURACY 10
-	;............
-	IF layer < 5 THEN
-		LMOVE nadpalright
-	ELSE
-		IF wdrugastrone == 0 THEN
-			LMOVE #palmid_r_6
-		ELSE
-			LMOVE #palmid_r_61
-		END
-		wdrugastrone = 0
-	END
-	SIGNAL -robotplacedrigh
-	PALMODE OFF
-	;............
-	SPEED 100
-	ACCURACY 100
-	;............
-	JMOVE #palmid_r
-	;............
-	SIGNAL openfull
-	SIGNAL -openshort
-	SIGNAL -closetorque
-	;.............
-	SPEED 100
-	ACCURACY 100
-	;............
-	JMOVE #homepos
-	SWAIT openedfull
-	SIGNAL -openfull
-	;.............
-.END
-.PROGRAM pg0() #0;
-	SPEED 30 ALWAYS
-	ACCURACY 1 ALWAYS
-	ACCEL 100 ALWAYS
-	DECEL 100 ALWAYS
-	WHILE TRUE DO
-		programready = 1033
-		actualstatus = 0
-		TWAIT 0.5
-		PALMODE OFF
-		ABS.SPEED OFF
-		SWAIT programready
-		WHILE (programnumber < 1) DO
-			TWAIT 0.1
-		END
-		CASE programnumber OF
-			VALUE 1:
-				CALL homing
-			VALUE 2:
-				CALL carton
-			VALUE 3:
-				CALL laser
-			VALUE 4:
-				CALL palletize_left
-			VALUE 5:
-				CALL palletize_right
-			VALUE 6:
-				CALL service_carton
-			VALUE 7:
-				CALL service_pallet
-		END
-	END
-.END
-.PROGRAM service_carton() #421
-	;.............
-	RESET ;reset signals
-	readyformark = 1058
-	;.............
-	;SIGNAL openfull
-	;SIGNAL -openshort
-	;SIGNAL -closetorque
-	;SWAIT openedfull
-	cartondelivered = 56
-	;.............
-	actualstatus = 6
-	;.............
-	IF NOT SIG (23) THEN
-		;.............
-		x_base = 200 ;defining homing x [mm]
-		y_base = 650 ;defining homing y [mm]
-		y_base_2 = 1400 ;defining homing y 2 [mm]
-		z_base = 1470 ;defining homing high [mm]
-		z_base_2 = 1920 ;defining homing high 2 [mm]
-		;.............
-		HERE temp_act_pos ;defining actual robot position in transformation value
-		;.............
-		IF (DX (temp_act_pos) > -700) AND (DY (temp_act_pos) > y_base) THEN
-			;.............
-			POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
-			;.............
-			POINT/Z temp_base_pos = TRANS (, , z_base) ;assigned temporary base high to temporary base position
-			;.............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;............
-			IF DX (temp_act_pos) > x_base THEN
-				;............
-				POINT/Y temp_base_pos = TRANS (, y_base) ;assigned temporary base x to temporary base position
-				;............
-			ELSE
-				;............
-				POINT/Y temp_base_pos = TRANS (, y_base_2) ;assigned temporary base x to temporary base position
-				;............
-			END
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;.............
-			BREAK
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE #beforelas
-			SWAIT readyformark
-			;............
-			BREAK
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE #laser
-			;............
-			BREAK
-			;.............
-			SIGNAL openfull
-			SIGNAL -openshort
-			SIGNAL -closetorque
-			SWAIT openedfull
-			SIGNAL -openfull
-			SIGNAL cartondelivered
-			;.............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LAPPRO #laser, 400; pozycja przed wypalaniem
-			;............
-			BREAK
-			;.............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE #befrotate; pozycja przed podjazdem do lasera
-			SIGNAL -cartondelivered
-			;............
-			BREAK
-			;.............
-		ELSE
-			;.............
-			POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
-			;.............
-			POINT/Z temp_base_pos = TRANS (, , z_base_2) ;assigned temporary base z to temporary base position
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;.............
-			IF DX (temp_act_pos) > 0 THEN
-				;............
-				POINT/X temp_base_pos = TRANS (900) ;assigned temporary base x to temporary base position
-				;............
-			ELSE
-				;............
-				POINT/X temp_base_pos = TRANS (-900) ;assigned temporary base x to temporary base position
-				;............
-			END
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;.............
-		END ;end if
-		;.............
-		HERE #temp_home_pos
-		POINT additionalpos = HERE
-		POINT additionalpos = additionalpos + TRANS (0, 0, -200) + RX (30)
-		LMOVE additionalpos
-		;.............
-		SPEED 20
-		ACCURACY 1
-		;............
-		JMOVE #PPOINT (DEXT (#homepos, 1), DEXT (#temp_home_pos, 2), DEXT (#temp_home_pos, 3), DEXT (#homepos, 4), DEXT (#homepos, 5), DEXT (#homepos, 6))
-		;.............
-		BREAK
-		;.............
-	END
-	;............
-	JMOVE #homepos
-	;.............
-	RETURN
-.END
-.PROGRAM service_pallet() #8
-	;.............
-	RESET ;reset signals
-	;.............
-	;SIGNAL openfull
-	;SIGNAL -openshort
-	;SIGNAL -closetorque
-	;SWAIT openedfull
-	;.............
-	cartondelivered = 56
-	actualstatus = 7
-	;.............
-	IF NOT SIG (23) THEN
-		;.............
-		x_base = 200 ;defining homing x [mm]
-		y_base = 650 ;defining homing y [mm]
-		y_base_2 = 1400 ;defining homing y 2 [mm]
-		z_base = 1250 ;defining homing high [mm]
-		z_base_2 = 1700 ;defining homing high 2 [mm]
-		;.............
-		HERE temp_act_pos ;defining actual robot position in transformation value
-		;.............
-		IF (DX (temp_act_pos) > -700) AND (DY (temp_act_pos) > y_base) THEN
-			;.............
-			POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
-			;.............
-			POINT/Z temp_base_pos = TRANS (, , z_base) ;assigned temporary base high to temporary base position
-			;.............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;............
-			IF DX (temp_act_pos) > x_base THEN
-				;............
-				POINT/Y temp_base_pos = TRANS (, y_base) ;assigned temporary base x to temporary base position
-				;............
-			ELSE
-				;............
-				POINT/Y temp_base_pos = TRANS (, y_base_2) ;assigned temporary base x to temporary base position
-				;............
-			END
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;............
-			IF DX (temp_act_pos) > x_base THEN
-				;............
-				POINT/X temp_base_pos = TRANS (x_base) ;assigned temporary base x to temporary base position
-				;............
-				SPEED 20
-				ACCURACY 1
-				;............
-				LMOVE temp_base_pos;go to temporary base position
-				;.............
-				BREAK
-				;.............
-				POINT/Z temp_base_pos = TRANS (, , z_base_2) ;assigned temporary base z to temporary base position
-				;............
-				SPEED 20
-				ACCURACY 1
-				;............
-				LMOVE temp_base_pos;go to temporary base position
-				;.............
-				BREAK
-				;.............
-			END
-			;.............
-		ELSE
-			;.............
-			POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
-			;.............
-			POINT/Z temp_base_pos = TRANS (, , z_base_2) ;assigned temporary base z to temporary base position
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;.............
-			IF DX (temp_act_pos) > 0 THEN
-				;............
-				POINT/X temp_base_pos = TRANS (900) ;assigned temporary base x to temporary base position
-				;............
-			ELSE
-				;............
-				POINT/X temp_base_pos = TRANS (-900) ;assigned temporary base x to temporary base position
-				;............
-			END
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE temp_base_pos;go to temporary base position
-			;.............
-			BREAK
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			IF DX (temp_act_pos) > 0 THEN
-				;............
-				JMOVE #palmid_l
-				;............
-			ELSE
-				;............
-				JMOVE #palmid_r
-				JMOVE #palmid_l
-				;............
-			END
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			JMOVE #rotmid
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LAPPRO #rotpick, 400; pozycja nad pobraniem z rotacja
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE #rotpick
-			;.............
-			BREAK
-			;.............
-			SIGNAL openfull
-			SIGNAL -openshort
-			SIGNAL -closetorque
-			SWAIT openedfull
-			SIGNAL -openfull
-			SIGNAL cartondelivered
-			SPEED 20
-			ACCURACY 1
-			;............
-			LAPPRO #rotpick, 400; pozycja nad pobraniem z rotacja
-			SIGNAL -cartondelivered
-			;........
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE #rotmid
-			;............
-			SPEED 20
-			ACCURACY 1
-			;............
-			LMOVE #palmid_l
-			;.............
-			BREAK
-			;.............
-		END ;end if
-		;.............
-		HERE #temp_home_pos
-		;.............
-		SPEED 20
-		ACCURACY 1
-		;............
-		JMOVE #PPOINT (DEXT (#homepos, 1), DEXT (#temp_home_pos, 2), DEXT (#temp_home_pos, 3), DEXT (#homepos, 4), DEXT (#homepos, 5), DEXT (#homepos, 6))
-		;.............
-		BREAK
-		;.............
-	END
-	;............
-	JMOVE #homepos
-	;.............
-	RETURN
-.END
-.PROGRAM teach() #0
-	;Home
-	JMOVE #homepos
-	;............
-	;Pobieranie
-	JMOVE #before_pick_c_l
-	LMOVE #pick_c_l
-	LMOVE #after_pick_c_l
-	JMOVE #before_pick_c_r
-	LMOVE #pick_c_r
-	LMOVE #after_pick_c_r
-	;...........
-	;laser
-	JMOVE #beforelas
-	LMOVE #laser
-	LMOVE #beforelas
-	LMOVE #befrotate
-	LMOVE #rotpick
-	LMOVE #rotmid
-	;...........
-	;Paletyzacja
-	JMOVE baseposleft
-	JMOVE baseposright
-	;...........
-.END
 .PROGRAM autostart.pc() #0
-	MC PRIME pg0
-	WHILE TRUE DO
-		IF SIG (1003) THEN ;krancowka 1 serwo chwytak
-			SIGNAL outsens37b1
-		ELSE
-			SIGNAL -outsens37b1
-		END
-		IF SIG (1004) THEN ;krancowka 2 serwo chwytak
-			SIGNAL outsens37b2
-		ELSE
-			SIGNAL -outsens37b2
-		END
-		IF SIG (1005) THEN ;krancowka 3 serwo chwytak
-			SIGNAL outsens37b3
-		ELSE
-			SIGNAL -outsens37b3
-		END
-		IF SIG (1006) THEN ;czujnik obecnosc kartonu
-			SIGNAL outsens37b4
-		ELSE
-			SIGNAL -outsens37b4
-		END
-		BITS 41, 8 = actualstatus
-		programnumber = BITS (1041, 8)
-	END
+  MC PRIME pg0
+  WHILE TRUE DO
+    IF SIG(1003) THEN ;krancowka 1 serwo chwytak
+      SIGNAL outsens37b1
+    ELSE
+      SIGNAL -outsens37b1
+    END
+    IF SIG(1004) THEN ;krancowka 2 serwo chwytak
+      SIGNAL outsens37b2
+    ELSE
+      SIGNAL -outsens37b2
+    END
+    IF SIG(1005) THEN ;krancowka 3 serwo chwytak
+      SIGNAL outsens37b3
+    ELSE
+      SIGNAL -outsens37b3
+    END
+    IF SIG(1006) THEN ;czujnik obecnosc kartonu
+      SIGNAL outsens37b4
+    ELSE
+      SIGNAL -outsens37b4
+    END
+    BITS 41,8 = actualstatus
+    programnumber = BITS(1041,8)
+  END
 .END
 .PROGRAM autostart2.pc() #0
-	intcom = 29
-	extcom = 1024
-	WHILE TRUE DO
-		IF NOT SIG (extcom) THEN
-			SIGNAL intcom
-		END
-		IF SIG (extcom) THEN
-			SIGNAL -intcom
-		END
-		TWAIT 0.3
-	END
+  intcom = 29
+  extcom = 1024
+  WHILE TRUE DO
+    IF NOT SIG(extcom) THEN
+      SIGNAL intcom
+    END
+    IF SIG(extcom) THEN
+      SIGNAL -intcom
+    END
+    TWAIT 0.3
+  END
+.END
+.PROGRAM carton() #133165
+  actualstatus = 2
+;inputs -----------------------------------------
+; robot table
+  rdypickleft = 1049
+  rdypickleftsoon = 1050
+  leftpushed = 1066
+  rdytopickright = 1051
+  rdytopickrights = 1052
+  rightpushed = 1067
+;bag folding
+  rdyforcarton = 1053
+  rdyforslide = 1054
+  rdyfortake = 1055
+  rdyclosebag2 = 1071
+  rdyclosebag1 = 1072
+;carton taping
+  rdyforcartontap = 1056
+  rdyformove1tap = 1073
+  rdyformove2tap = 1057
+;chwytak
+  openedfull = 1070
+  openedshort = 1069
+  closedtorque = 1068
+;off sets
+  nar_offset_zp = BITS(1137,8)
+  nar_offset_zm = BITS(1145,8)
+  pnar_offset_zp = BITS(1153,8)
+  pnar_offset_zm = BITS(1161,8)
+  cbag1_offset_zp = BITS(1169,8)
+  cbag1_offset_zm = BITS(1177,8)
+  cbag2_offset_zp = BITS(1185,8)
+  cbag2_offset_zm = BITS(1193,8)
+  gstart_offset_z = BITS(1201,8)
+  gstart_offset_z = BITS(1209,8)
+  gend_offset_zp = BITS(1217,8)
+  gend_offset_zm = BITS(1225,8)
+;outputs ------------------------------------------
+;robot table
+  robotrdytopushl = 59
+  robotrdytopushr = 60
+  robotpickedleft = 49
+  robotpickedrigh = 50
+; bag folding
+  cartdelivered1 = 51
+  cartonslided = 52
+  cartontaken = 53
+  cartonclosebag2 = 64
+  cartonclosebag1 = 65
+;carton taping
+  deliveredstart = 54
+  deliveredpos1 = 66
+  deliveredpos2 = 55
+; chwytak
+  openfull = 62
+  openshort = 61
+  closetorque = 63
+;-------------------------------------------------
+  BASE NULL
+;............
+  JMOVE #homepos
+;.............
+  WHILE NOT SIG(rdypickleftsoon) AND NOT SIG(rdytopickrights) DO ; czekanie na ktorys sygnal gotowosci soon
+    TWAIT 0.1
+  END
+  IF SIG(rdypickleftsoon) THEN ; jezeli lewy gotowy soon
+    JMOVE #before_pick_c_l; przejazd nad pozycje obliczona przed kartonem lewo
+    SWAIT rdypickleft ; czekanie na sygnal gotowosci do pobrania lewo
+    BREAK
+    LMOVE #pick_c_l
+    BREAK
+    SIGNAL robotrdytopushl ; wystawienie sygnalu
+    SWAIT leftpushed ; czekanie na sygnal z plc
+    SIGNAL -robotrdytopushl ; zdjecie sygnalu
+    SIGNAL -openfull
+    SIGNAL openshort
+    SIGNAL -closetorque
+    SWAIT openedshort ; czekanie na zamkniecie
+    SIGNAL -openfull
+    SIGNAL -openshort
+    SIGNAL closetorque
+    SWAIT closedtorque ; czekanie na zamkniecie
+    SIGNAL -closetorque ; zdjecie sygnalu
+    LMOVE #after_pick_c_l
+    BREAK
+    SIGNAL robotpickedleft ; wystawienie sygnalu
+    SWAIT -leftpushed ; czkeanie na spadek sygnalu z plc
+    SIGNAL -robotpickedleft ; zdjecie sygnalu potwierdzenia
+  ELSE ; jezeli prawy gotowy soon
+    JMOVE #before_pick_c_r; przejazd nad pozycje obliczona przed kartonem lewo
+    SWAIT rdytopickright ; czekanie na sygnal gotowosci do pobrania prawo
+    BREAK
+    LMOVE #pick_c_r
+    BREAK
+    SIGNAL robotrdytopushr ; wystawienie sygnalu
+    SWAIT rightpushed ; czekanie na sygnal z plc
+    SIGNAL -robotrdytopushr ; zdjecie sygnalu
+    SIGNAL -openfull
+    SIGNAL openshort
+    SIGNAL -closetorque
+    SWAIT openedshort ; czekanie na zamkniecie
+    SIGNAL -openfull
+    SIGNAL -openshort
+    SIGNAL closetorque
+    SWAIT closedtorque ; czekanie na zamkniecie
+    SIGNAL -closetorque ; zdjecie sygnalu
+    LMOVE #after_pick_c_r
+    BREAK
+    SIGNAL robotpickedrigh ; wystawienie sygnalu
+    SWAIT -rightpushed ; czkeanie na spadek sygnalu z plc
+    SIGNAL -robotpickedrigh ; zdjecie sygnalu potwierdzenia
+  END
+  SWAIT rdyforcarton ; czekanie na gotowosc ukladu
+;............
+  SPEED 60
+  ACCURACY 10
+;............
+  IF pnar_offset_zp>0 THEN
+    JMOVE SHIFT(podnarozniki BY ,,pnar_offset_zp)
+  ELSE
+    IF pnar_offset_zm>0 THEN
+      JMOVE SHIFT(podnarozniki BY ,,-pnar_offset_zm)
+    ELSE
+      JMOVE podnarozniki; przejazd pod uklad skladania
+    END
+  END
+  IF nar_offset_zp>0 THEN
+    LMOVE SHIFT(narozniki BY ,,nar_offset_zp)
+  ELSE
+    IF nar_offset_zm>0 THEN
+      LMOVE SHIFT(narozniki BY ,,-nar_offset_zm)
+    ELSE
+      LMOVE narozniki; przejazd do pozycji opuszczania lapek do podnoszenia worka
+    END
+  END
+  BREAK
+  SIGNAL cartdelivered1 ; wystawienie sygnalu do plc
+  SWAIT rdyforslide ; czekanie az bedzie mozna zjechac w dol
+  SIGNAL -cartdelivered1 ; zdjecie sygnalu
+  SPEED 100
+  IF pnar_offset_zp>0 THEN
+    LMOVE SHIFT(podnarozniki BY ,,pnar_offset_zp)
+  ELSE
+    IF pnar_offset_zm>0 THEN
+      LMOVE SHIFT(podnarozniki BY ,,-pnar_offset_zm)
+    ELSE
+      LMOVE podnarozniki; przejazd pod uklad skladania
+    END
+  END
+  BREAK
+  SIGNAL cartonslided ; wystawienie zakonczenie wywijania
+  SWAIT rdyclosebag2 ; oczekiwanie na zamkniecie silownika
+  SIGNAL -cartonslided
+  IF cbag2_offset_zp>0 THEN
+    JMOVE SHIFT(p_closebag2 BY ,,cbag2_offset_zp)
+  ELSE
+    IF cbag2_offset_zm>0 THEN
+      JMOVE SHIFT(p_closebag2 BY ,,-cbag2_offset_zm)
+    ELSE
+      JMOVE p_closebag2; przejazd do pozycji zamykania worka pod katem
+    END
+  END
+  BREAK
+  SIGNAL cartonclosebag2 ; wystawienie osiagniecia pozycji
+  SWAIT rdyclosebag1 ; czekanie na sygnal
+  SIGNAL -cartonclosebag2 ; wylaczenie sygnalu
+  IF cbag1_offset_zp>0 THEN
+    JMOVE SHIFT(p_closebag1 BY ,,cbag1_offset_zp)
+  ELSE
+    IF cbag1_offset_zm>0 THEN
+      JMOVE SHIFT(p_closebag1 BY ,,-cbag1_offset_zm)
+    ELSE
+      JMOVE p_closebag1; przejazd do pozycji po zamknieciu
+    END
+  END
+  BREAK
+  SIGNAL cartonclosebag1 ; wystawienie osiagniecia pozycji
+  SWAIT rdyfortake ; czekanie az bedzie mozna odjechac
+  SIGNAL -cartonclosebag1 ; zdjecie sygnalu
+  POINT calculate = p_closebag1+TRANS(,70) ; obnizenie po zagieciu worka
+  LMOVE calculate; ruch
+  SIGNAL cartontaken ; wyslanie informacji o zabraniu kartonu
+  SWAIT -rdyfortake ; czekanie na brak sygnalu
+  SIGNAL -cartontaken ; zerowanie zygnalu po sekwencji
+  SWAIT rdyforcartontap ; czekanie na gotowosc ukladu
+  SPEED 100
+  LMOVE SHIFT(przedklejem BY -230); dojazd do pozycji przed zaklejaniem
+  SPEED 25
+  LMOVE przedklejem; dojazd do pozycji przed zaklejaniem
+  BREAK
+  SIGNAL deliveredstart ; wystawienie sygnalu dostarczenia kartonu
+  SWAIT rdyformove1tap ; czekanie na zamknięcie tylnej klapy
+  SPEED 100
+  SIGNAL -deliveredstart ; sciagniecie sygnalu
+  LMOVE fold; dojazd do pozycji zamykania klap
+  BREAK
+  SIGNAL deliveredpos1
+  SWAIT rdyformove2tap
+  SIGNAL -deliveredpos1
+;.............
+;.............
+  ABS.SPEED ON
+;.............
+  SPEED 250 MM/S
+;.............
+  IF gstart_offset_z>0 THEN
+    LMOVE SHIFT(gluestart BY ,,gstart_offset_z)
+  ELSE
+    IF gstart_offset_z>0 THEN
+      LMOVE SHIFT(gluestart BY ,,-gstart_offset_z)
+    ELSE
+      LMOVE gluestart; dojazd do pozycji zamykania klap
+    END
+  END
+  BREAK
+;.............
+  ABS.SPEED OFF
+;.............
+;.............
+  ABS.SPEED ON
+;.............
+  SPEED 250 MM/S
+;.............
+  IF gend_offset_zp>0 THEN
+    LMOVE SHIFT(glueend BY ,,gend_offset_zp)
+  ELSE
+    IF gend_offset_zm>0 THEN
+      LMOVE SHIFT(glueend BY ,,-gend_offset_zm)
+    ELSE
+      LMOVE glueend; przejazd przez zaklejarke
+    END
+  END
+  BREAK
+;.............
+  ABS.SPEED OFF
+;.............
+  SIGNAL deliveredpos2 ; wystawienie do plc
+  SWAIT -rdyformove2tap ; czekanie na sygnal z plc
+  SIGNAL -deliveredpos2 ; zdjecie sygnalu
+  POINT calculate = glueend+TRANS(,90) ; obnizenie po zaklejeniu
+  LMOVE calculate; ruch
+  LMOVE posrednia; przejazd do pozycji posredniej po zaklejaniu
+  RETURN
+.END
+.PROGRAM homing() #5573
+;.............
+  RESET ;reset signals
+;.............
+;WAIT SIG (23)
+;.............
+  SIGNAL openfull
+  SIGNAL -openshort
+  SIGNAL -closetorque
+  SWAIT openedfull
+  SIGNAL -openfull
+;.............
+  actualstatus = 1
+;.............
+  IF NOT SIG(23) THEN
+;.............
+    x_base = 200 ;defining homing x [mm]
+    y_base = 650 ;defining homing y [mm]
+    y_base_2 = 1400 ;defining homing y 2 [mm]
+    z_base = 1490 ;defining homing high [mm]
+    z_base_2 = 1700 ;defining homing high 2 [mm]
+;.............
+    HERE temp_act_pos ;defining actual robot position in transformation value
+;.............
+    IF (DX(temp_act_pos)>-700) AND (DY(temp_act_pos)>y_base) THEN
+;.............
+      POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
+;.............
+      POINT/Z temp_base_pos = TRANS(,,z_base) ;assigned temporary base high to temporary base position
+;.............
+      SPEED 10
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;............
+      IF DX(temp_act_pos)>x_base THEN
+;............
+        POINT/Y temp_base_pos = TRANS(,y_base) ;assigned temporary base x to temporary base position
+;............
+      ELSE
+;............
+        POINT/Y temp_base_pos = TRANS(,y_base_2) ;assigned temporary base x to temporary base position
+;............
+      END
+;............
+      SPEED 10
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;............
+      IF DX(temp_act_pos)>x_base THEN
+;............
+        POINT/X temp_base_pos = TRANS(x_base) ;assigned temporary base x to temporary base position
+;............
+        SPEED 10
+        ACCURACY 1
+;............
+        LMOVE temp_base_pos;go to temporary base position
+;.............
+        BREAK
+;.............
+        POINT/Z temp_base_pos = TRANS(,,z_base_2) ;assigned temporary base z to temporary base position
+;............
+        SPEED 10
+        ACCURACY 1
+;............
+        LMOVE temp_base_pos;go to temporary base position
+;.............
+        BREAK
+;.............
+      END
+;.............
+    ELSE
+;.............
+      POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
+;.............
+      POINT/Z temp_base_pos = TRANS(,,z_base_2) ;assigned temporary base z to temporary base position
+;............
+      SPEED 10
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;.............
+      IF DX(temp_act_pos)>0 THEN
+;............
+        POINT/X temp_base_pos = TRANS(900) ;assigned temporary base x to temporary base position
+;............
+      ELSE
+;............
+        POINT/X temp_base_pos = TRANS(-900) ;assigned temporary base x to temporary base position
+;............
+      END
+;............
+      SPEED 10
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;.............
+    END ;end if
+;.............
+    HERE #temp_home_pos
+;.............
+    SPEED 10
+    ACCURACY 1
+;............
+    JMOVE #PPOINT(DEXT(#homepos,1),DEXT(#temp_home_pos,2),DEXT(#temp_home_pos,3),DEXT(#temp_home_pos,4),DEXT(#temp_home_pos,5),DEXT(#temp_home_pos,6))
+;.............
+    BREAK
+;.............
+    SPEED 10
+    ACCURACY 1
+;............
+    JMOVE #PPOINT(DEXT(#homepos,1),DEXT(#temp_home_pos,2),DEXT(#homepos,3),DEXT(#temp_home_pos,4),DEXT(#temp_home_pos,5),DEXT(#temp_home_pos,6))
+;.............
+    BREAK
+;............
+    SPEED 10
+    ACCURACY 1
+;............
+    JMOVE #PPOINT(DEXT(#homepos,1),DEXT(#temp_home_pos,2),DEXT(#homepos,3),DEXT(#homepos,4),DEXT(#homepos,5),DEXT(#homepos,6))
+;.............
+    BREAK
+;............
+    SPEED 10
+    ACCURACY 1
+;............
+  END
+;............
+  JMOVE #homepos
+;.............
+  RETURN
+.END
+.PROGRAM laser() #143076
+  actualstatus = 3
+;...........
+;SYGNALY
+;INPUTS
+  readyformark = 1058
+  cartonmarked = 1059
+  awaryjnywaga = 1076
+  checked_down = 1074
+  wingsnok = 1075
+;OUTPUTS
+  cartondelivered = 56
+  check_down = 67
+  empty_carton = 68
+  full_carton = 69
+;...........
+  SPEED 50
+  ACCURACY 20
+;...........
+  LMOVE #beforelas; pozycja przed podjazdem do lasera
+;.............
+  SWAIT readyformark
+;...........
+  SPEED 30
+  ACCURACY 1
+;...........
+  LAPPRO #laser,100
+;...........
+;empty_trq = 1.33
+;...........
+  TWAIT 1
+  actual_trq = TRQNM(5)
+;...........
+;IF actual_trq <= empty_trq THEN
+;  SIGNAL empty_carton
+;  SWAIT empty_cart_con
+;  SIGNAL -empty_carton
+;  SIGNAL -full_carton
+;ELSE
+;  SIGNAL full_carton
+;  SWAIT empty_cart_con
+;  SIGNAL -full_carton
+;  SIGNAL -empty_carton
+;END ;end if
+;...........
+  SPEED 30
+  ACCURACY 1
+  LMOVE #laser; pozycja wypalania
+;.............
+  BREAK
+;.............
+  SIGNAL openfull
+  SIGNAL -openshort
+  SIGNAL -closetorque
+  SWAIT openedfull
+  SIGNAL -openfull
+;.............
+  SIGNAL cartondelivered
+;...........
+  SPEED 100
+  ACCURACY 20
+;...........
+  LAPPRO #laser,400; pozycja przed wypalaniem
+  BREAK
+;...........
+  SPEED 100
+  ACCURACY 20
+;...........
+  SWAIT -wingsnok
+  JMOVE #befrotate; pozycja przed podjazdem do lasera
+;...........
+  SPEED 100
+  ACCURACY 20
+;...........
+  LAPPRO #rotpick,200; pozycja nad pobraniem z rotacja
+  IF SIG(wingsnok) THEN
+    LAPPRO #rotpick,200; pozycja nad pobraniem z rotacja
+  END
+  SWAIT -wingsnok
+;...........
+  SPEED 30
+  ACCURACY 1
+;...........
+  LMOVE #rotpick; pozycja pobrania z rotacja
+  WHILE NOT SIG(cartonmarked) AND NOT SIG(awaryjnywaga) DO
+    TWAIT 0.1
+  END
+  IF NOT SIG(awaryjnywaga) THEN
+    SWAIT cartonmarked
+  ELSE
+    GOTO 100
+  END
+;.............
+  SIGNAL -openfull
+  SIGNAL openshort
+  SIGNAL -closetorque
+  SWAIT openedshort ; czekanie na zamkniecie
+  SIGNAL -openfull
+  SIGNAL -openshort
+  SIGNAL closetorque
+  SWAIT closedtorque ; czekanie na zamkniecie
+  SIGNAL -closetorque ; zdjecie sygnalu
+;...........
+  SPEED 20
+  ACCURACY 1
+;...........
+  LAPPRO #rotpick,80; pozycja nad pobraniem z rotacja
+  BREAK
+;...........
+  SIGNAL -cartondelivered
+  SIGNAL check_down
+  SWAIT checked_down
+  SIGNAL -check_down
+;...........
+  SPEED 100
+  ACCURACY 20
+;...........
+  LAPPRO #rotpick,200; pozycja nad pobraniem z rotacja
+;SIGNAL -cartondelivered
+;...........
+  SPEED 100
+  ACCURACY 100
+;...........
+  LMOVE #rotmid; pozycja posrednia miedzy bazowa z obroconym chwytakiem
+  RETURN
+100
+;
+  SPEED 20
+  ACCURACY 100
+  LMOVE #awaryjny1
+;
+  SPEED 20
+  ACCURACY 100
+  JMOVE #awaryjny2
+;
+  SPEED 20
+  ACCURACY 100
+  JMOVE #awaryjny3
+;
+  JMOVE #homepos
+;
+  SWAIT -awaryjnywaga
+  RETURN
+.END
+.PROGRAM palletize_left() #69367
+  actualstatus = 4
+;..............
+  wdrugastronel = 0
+  BASE NULL
+  offsetleft = 1
+;..............
+;SYGNALY
+;INPUTS
+  putleft = 1061
+  rotateleft = 1064
+;OUTPUTS
+  robotplacedleft = 57
+;..............
+; wymiary kartonu
+  cartonlenght = 495
+  cartonwidth = 291
+  cartonheight = 339
+;ustalenie offsetow od pozycji bazowej
+;............
+  WAIT SIG(putleft)
+;............
+  IF SIG(offsetleft) THEN
+    offsetx = 0e+00
+    offsety = 0e+00
+    offsetz = 0e+00
+  END
+;............
+;przesuniecie bazowych pozycji o offsety
+  POINT baseleftoffset = SHIFT(baseposleft BY offsetx,offsety,offsetz)
+;zmienne paletyzacji
+  DO
+    row = BITS(1089,8)
+    column = BITS(1097,8)
+    layer = BITS(1105,8)
+  UNTIL (row>=0 AND row<=3 AND column>=0 AND column<=1 AND layer>=0 AND layer<=5)
+  IF layer>=5 THEN
+    IF column==0 THEN
+      column = 1
+    ELSE
+      column = 0
+    END
+  END
+;.......
+  IF column==1 THEN
+    IF SIG(rotateleft) THEN
+;..........
+      offset_width = 40
+;..........
+      IF row==0 THEN
+        POINT baseleftoffset = SHIFT(baseleftoffset BY -250,170)+RZ(90)
+      ELSE
+        POINT baseleftoffset = SHIFT(baseleftoffset BY -330,170)-RZ(90)
+      END
+    ELSE
+;..........
+      offset_width = 20
+;..........
+      POINT baseleftoffset = SHIFT(baseleftoffset BY ,130)-RZ(180)
+    END
+  ELSE
+;..........
+    offset_width = 20
+;..........
+  END ;end if
+  IF layer<5 THEN
+;obliczenie pozycji nad paleta
+    POINT nadpalleft = SHIFT(baseleftoffset BY -((row*cartonwidth)+20),-((column*cartonlenght)+offset_width))
+    POINT/Z nadpalleft = TRANS(,,1850)
+;...........
+;obliczenie pozycji przed odlozeniem
+    POINT przedodlleft = SHIFT(baseleftoffset BY -((row*cartonwidth)+20),-((column*cartonlenght)+offset_width),((layer*cartonheight)+100))
+;obliczenie pozycji odlozenia
+    POINT odlleft = SHIFT(baseleftoffset BY -(row*cartonwidth),-(column*cartonlenght),(layer*cartonheight))
+  ELSE
+;obliczenie pozycji nad paleta
+    POINT nadpalleft = SHIFT(baseleftoffset BY -((row*cartonwidth)+20),-((column*cartonlenght)-20))
+    POINT/Z nadpalleft = TRANS(,,1850)
+;...........
+;obliczenie pozycji przed odlozeniem
+    POINT przedodlleft = SHIFT(baseleftoffset BY -((row*cartonwidth)+20),-((column*cartonlenght)-20),((layer*cartonheight)+100))
+;obliczenie pozycji odlozenia
+    POINT odlleft = SHIFT(baseleftoffset BY -(row*cartonwidth),-(column*cartonlenght),(layer*cartonheight))
+  END
+  POINT rotation = odlleft
+  IF row==1 AND column==1 AND SIG(rotateleft) THEN
+    POINT rotation = rotation-RX(90)
+    POINT rotation = SHIFT(rotation BY ,,200)
+    wdrugastrone = 1
+  ELSE
+    POINT rotation = rotation+RX(90)
+    POINT rotation = SHIFT(rotation BY ,,200)
+  END
+;...........
+;odlozenie kartonu
+;............
+  WAIT SIG(putleft) ;oczekiwanie na paletyzacje lewa
+;............
+  SPEED 100
+  ACCURACY 100
+;............
+  JMOVE #palmid_l
+  POINT palrotl = HERE
+  POINT/Z palrotl = TRANS(,,1850)
+  JMOVE palrotl
+  POINT palrotl = nadpalleft
+  POINT/X palrotl = TRANS(757)
+  POINT/Y palrotl = TRANS(,386)
+  POINT/Z palrotl = TRANS(,,1850)
+  SPEED 100
+  ACCURACY 100
+  JMOVE palrotl
+;............
+  WAIT SIG(putleft) ;oczekiwanie na paletyzacje lewa
+;............
+  SPEED 100
+  ACCURACY 10
+;............
+  LMOVE nadpalleft
+  PALMODE ON
+;............
+  SPEED 50
+  ACCURACY 30
+;............
+  LMOVE przedodlleft
+;............
+  SPEED 50
+  ACCURACY 1
+;............
+  LAPPRO odlleft,50
+;............
+  BREAK
+;............
+  SPEED 30
+  ACCURACY 1
+;............
+  LMOVE odlleft
+;.............
+  SIGNAL -openfull
+  SIGNAL openshort
+  SIGNAL -closetorque
+  SWAIT openedshort ;czekanie na krotkie otworzenie
+  SIGNAL -openshort
+;............
+  SPEED 100
+  ACCURACY 1
+;............
+  IF layer<5 THEN
+    LAPPRO odlleft,300
+    BREAK
+  ELSE
+    PALMODE OFF
+    LMOVE rotation
+    BREAK
+  END
+  SIGNAL robotplacedleft
+;............
+  SPEED 100
+  ACCURACY 10
+;............
+  IF layer<5 THEN
+    LMOVE nadpalleft
+  ELSE
+    IF wdrugastrone==0 THEN
+      LMOVE #palmid_l_6
+    ELSE
+      LMOVE #palmid_l_61
+    END
+    wdrugastrone = 0
+  END
+  SIGNAL -robotplacedleft
+  PALMODE OFF
+;............
+  SPEED 100
+  ACCURACY 100
+;............
+  JMOVE #palmid_l
+;.............
+  SIGNAL openfull
+  SIGNAL -openshort
+  SIGNAL -closetorque
+;.............
+  SPEED 100
+  ACCURACY 100
+;............
+  JMOVE #homepos
+  SWAIT openedfull
+  SIGNAL -openfull
+  RETURN
+;.............
+.END
+.PROGRAM palletize_right() #73624
+  actualstatus = 5
+;..............
+  wdrugastrone = 0
+  BASE NULL
+  offsetright = 1
+;..............
+;SYGNALY
+;INPUTS
+  putright = 1063
+  rotateright = 1065
+;OUTPUTS
+  robotplacedrigh = 58
+;..............
+; wymiary kartonu
+  cartonlenght = 495
+  cartonwidth = 291
+  cartonheight = 339
+;ustalenie offsetow od pozycji bazowej
+;............
+  WAIT SIG(putright)
+;............
+  IF SIG(offsetright) THEN
+    offsetx = 0e+00
+    offsety = 0e+00
+    offsetz = 0e+00
+  END
+;............
+;przesuniecie bazowych pozycji o offsety
+  POINT baserightoffset = SHIFT(baseposright BY offsetx,offsety,offsetz)
+;zmienne paletyzacji
+  DO
+    row = BITS(1113,8)
+    column = BITS(1121,8)
+    layer = BITS(1129,8)
+  UNTIL (row>=0 AND row<=3 AND column>=0 AND column<=1 AND layer>=0 AND layer<=5)
+  IF layer>=5 THEN
+    IF column==0 THEN
+      column = 1
+    ELSE
+      column = 0
+    END
+  END
+;.......
+  IF column==1 THEN
+    IF SIG(rotateright) THEN
+;..........
+      offset_width = 40
+;..........
+      IF row==0 THEN
+        POINT baserightoffset = SHIFT(baserightoffset BY 250,160)-RZ(90)
+      ELSE
+        POINT baserightoffset = SHIFT(baserightoffset BY 330,160)+RZ(90)
+      END
+    ELSE
+;..........
+      offset_width = 20
+;..........
+      POINT baserightoffset = SHIFT(baserightoffset BY ,130)+RZ(180)
+    END
+  ELSE
+;..........
+    offset_width = 20
+;..........
+  END ;end if
+  IF layer<5 THEN
+;obliczenie pozycji nad paleta
+    POINT nadpalright = SHIFT(baserightoffset BY ((row*cartonwidth)+10),-((column*cartonlenght)+offset_width))
+    POINT/Z nadpalright = TRANS(,,1850)
+;...........
+;obliczenie pozycji przed odlozeniem
+    POINT przedodlright = SHIFT(baserightoffset BY ((row*cartonwidth)+10),-((column*cartonlenght)+offset_width),((layer*cartonheight)+100))
+;obliczenie pozycji odlozenia
+    POINT odlright = SHIFT(baserightoffset BY (row*cartonwidth),-(column*cartonlenght),(layer*cartonheight))
+  ELSE
+;obliczenie pozycji nad paleta
+    POINT nadpalright = SHIFT(baserightoffset BY ((row*cartonwidth)+10),-((column*cartonlenght)-20))
+    POINT/Z nadpalright = TRANS(,,1850)
+;...........
+;obliczenie pozycji przed odlozeniem
+    POINT przedodlright = SHIFT(baserightoffset BY ((row*cartonwidth)+10),-((column*cartonlenght)-20),((layer*cartonheight)+100))
+;obliczenie pozycji odlozenia
+    POINT odlright = SHIFT(baserightoffset BY (row*cartonwidth),-(column*cartonlenght),(layer*cartonheight))
+  END
+  POINT rotation = odlright
+  IF row==1 AND column==1 AND SIG(rotateright) THEN
+    POINT rotation = rotation-RX(90)
+    POINT rotation = SHIFT(rotation BY ,,200)
+    wdrugastrone = 1
+  ELSE
+    POINT rotation = rotation+RX(90)
+    POINT rotation = SHIFT(rotation BY ,,200)
+  END
+;...........
+;odlozenie kartonu
+;............
+  WAIT SIG(putright) ;oczekiwanie na paletyzacje prawa
+;............
+  SPEED 100
+  ACCURACY 100
+;............
+  JMOVE #palmid_l
+;............
+  SPEED 100
+  ACCURACY 100
+;............
+  JMOVE #palmid_r
+  POINT palrotr = nadpalright
+  POINT/X palrotr = TRANS(-757)
+  POINT/Y palrotr = TRANS(,386)
+  POINT/Z palrotr = TRANS(,,1900)
+  SPEED 100
+  ACCURACY 100
+  JMOVE palrotr
+;............
+  WAIT SIG(putright) ;oczekiwanie na paletyzacje prawa
+;............
+  SPEED 100
+  ACCURACY 10
+;............
+  LMOVE nadpalright
+  PALMODE ON
+;............
+  SPEED 50
+  ACCURACY 30
+;............
+  LMOVE przedodlright
+;............
+  SPEED 50
+  ACCURACY 1
+;............
+  LAPPRO odlright,50
+;............
+  BREAK
+;............
+  SPEED 30
+  ACCURACY 1
+;............
+  LMOVE odlright
+;.............
+  SIGNAL -openfull
+  SIGNAL openshort
+  SIGNAL -closetorque
+  SWAIT openedshort ;czekanie na krotkie otworzenie
+  SIGNAL -openshort
+;............
+  SPEED 100
+  ACCURACY 1
+;............
+  IF layer<5 THEN
+    LAPPRO odlright,300
+    BREAK
+  ELSE
+    PALMODE OFF
+    LMOVE rotation
+    BREAK
+  END
+  SIGNAL robotplacedrigh
+;............
+  SPEED 100
+  ACCURACY 10
+;............
+  IF layer<5 THEN
+    LMOVE nadpalright
+  ELSE
+    IF wdrugastrone==0 THEN
+      LMOVE #palmid_r_6
+    ELSE
+      LMOVE #palmid_r_61
+    END
+    wdrugastrone = 0
+  END
+  SIGNAL -robotplacedrigh
+  PALMODE OFF
+;............
+  SPEED 100
+  ACCURACY 100
+;............
+  JMOVE #palmid_r
+;............
+  SIGNAL openfull
+  SIGNAL -openshort
+  SIGNAL -closetorque
+;.............
+  SPEED 100
+  ACCURACY 100
+;............
+  JMOVE #homepos
+  SWAIT openedfull
+  SIGNAL -openfull
+;.............
+.END
+.PROGRAM pg0() #0;
+  SPEED 30 ALWAYS
+  ACCURACY 1 ALWAYS
+  ACCEL 100 ALWAYS
+  DECEL 100 ALWAYS
+  WHILE TRUE DO
+    programready = 1033
+    actualstatus = 0
+    TWAIT 0.5
+    PALMODE OFF
+    ABS.SPEED OFF
+    SWAIT programready
+    WHILE (programnumber<1) DO
+      TWAIT 0.1
+    END
+    CASE programnumber OF
+     VALUE 1:
+      CALL homing
+     VALUE 2:
+      CALL carton
+     VALUE 3:
+      CALL laser
+     VALUE 4:
+      CALL palletize_left
+     VALUE 5:
+      CALL palletize_right
+     VALUE 6:
+      CALL service_carton
+     VALUE 7:
+      CALL service_pallet
+    END
+  END
+.END
+.PROGRAM pg999() #58
+  JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-81.528,-47.184,-57.535,3.139,70.344,123.04] ;
+  JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-81.528,31.75,62.183,3.1392,32.69,123.04] ;
+  JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-81.528,-47.184,-57.535,3.1392,70.344,123.04] ;
+  JOINT SPEED9 ACCU1 TIMER0 TOOL1 WORK0 CLAMP1 (OFF,0,0,O) OX= WX= #[-5.4202,-60,-47.451,162.74,3.3016,-130.71] ;
+.END
+.PROGRAM service_carton() #421
+;.............
+  RESET ;reset signals
+  readyformark = 1058
+;.............
+;SIGNAL openfull
+;SIGNAL -openshort
+;SIGNAL -closetorque
+;SWAIT openedfull
+  cartondelivered = 56
+;.............
+  actualstatus = 6
+;.............
+  IF NOT SIG(23) THEN
+;.............
+    x_base = 200 ;defining homing x [mm]
+    y_base = 650 ;defining homing y [mm]
+    y_base_2 = 1400 ;defining homing y 2 [mm]
+    z_base = 1470 ;defining homing high [mm]
+    z_base_2 = 1920 ;defining homing high 2 [mm]
+;.............
+    HERE temp_act_pos ;defining actual robot position in transformation value
+;.............
+    IF (DX(temp_act_pos)>-700) AND (DY(temp_act_pos)>y_base) THEN
+;.............
+      POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
+;.............
+      POINT/Z temp_base_pos = TRANS(,,z_base) ;assigned temporary base high to temporary base position
+;.............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;............
+      IF DX(temp_act_pos)>x_base THEN
+;............
+        POINT/Y temp_base_pos = TRANS(,y_base) ;assigned temporary base x to temporary base position
+;............
+      ELSE
+;............
+        POINT/Y temp_base_pos = TRANS(,y_base_2) ;assigned temporary base x to temporary base position
+;............
+      END
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;.............
+      BREAK
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE #beforelas
+      SWAIT readyformark
+;............
+      BREAK
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE #laser
+;............
+      BREAK
+;.............
+      SIGNAL openfull
+      SIGNAL -openshort
+      SIGNAL -closetorque
+      SWAIT openedfull
+      SIGNAL -openfull
+      SIGNAL cartondelivered
+;.............
+      SPEED 20
+      ACCURACY 1
+;............
+      LAPPRO #laser,400; pozycja przed wypalaniem
+;............
+      BREAK
+;.............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE #befrotate; pozycja przed podjazdem do lasera
+      SIGNAL -cartondelivered
+;............
+      BREAK
+;.............
+    ELSE
+;.............
+      POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
+;.............
+      POINT/Z temp_base_pos = TRANS(,,z_base_2) ;assigned temporary base z to temporary base position
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;.............
+      IF DX(temp_act_pos)>0 THEN
+;............
+        POINT/X temp_base_pos = TRANS(900) ;assigned temporary base x to temporary base position
+;............
+      ELSE
+;............
+        POINT/X temp_base_pos = TRANS(-900) ;assigned temporary base x to temporary base position
+;............
+      END
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;.............
+    END ;end if
+;.............
+    HERE #temp_home_pos
+    POINT additionalpos = HERE
+    POINT additionalpos = additionalpos+TRANS(0,0,-200)+RX(30)
+    LMOVE additionalpos
+;.............
+    SPEED 20
+    ACCURACY 1
+;............
+    JMOVE #PPOINT(DEXT(#homepos,1),DEXT(#temp_home_pos,2),DEXT(#temp_home_pos,3),DEXT(#homepos,4),DEXT(#homepos,5),DEXT(#homepos,6))
+;.............
+    BREAK
+;.............
+  END
+;............
+  JMOVE #homepos
+;.............
+  RETURN
+.END
+.PROGRAM service_pallet() #8
+;.............
+  RESET ;reset signals
+;.............
+;SIGNAL openfull
+;SIGNAL -openshort
+;SIGNAL -closetorque
+;SWAIT openedfull
+;.............
+  cartondelivered = 56
+  actualstatus = 7
+;.............
+  IF NOT SIG(23) THEN
+;.............
+    x_base = 200 ;defining homing x [mm]
+    y_base = 650 ;defining homing y [mm]
+    y_base_2 = 1400 ;defining homing y 2 [mm]
+    z_base = 1250 ;defining homing high [mm]
+    z_base_2 = 1700 ;defining homing high 2 [mm]
+;.............
+    HERE temp_act_pos ;defining actual robot position in transformation value
+;.............
+    IF (DX(temp_act_pos)>-700) AND (DY(temp_act_pos)>y_base) THEN
+;.............
+      POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
+;.............
+      POINT/Z temp_base_pos = TRANS(,,z_base) ;assigned temporary base high to temporary base position
+;.............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;............
+      IF DX(temp_act_pos)>x_base THEN
+;............
+        POINT/Y temp_base_pos = TRANS(,y_base) ;assigned temporary base x to temporary base position
+;............
+      ELSE
+;............
+        POINT/Y temp_base_pos = TRANS(,y_base_2) ;assigned temporary base x to temporary base position
+;............
+      END
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;............
+      IF DX(temp_act_pos)>x_base THEN
+;............
+        POINT/X temp_base_pos = TRANS(x_base) ;assigned temporary base x to temporary base position
+;............
+        SPEED 20
+        ACCURACY 1
+;............
+        LMOVE temp_base_pos;go to temporary base position
+;.............
+        BREAK
+;.............
+        POINT/Z temp_base_pos = TRANS(,,z_base_2) ;assigned temporary base z to temporary base position
+;............
+        SPEED 20
+        ACCURACY 1
+;............
+        LMOVE temp_base_pos;go to temporary base position
+;.............
+        BREAK
+;.............
+      END
+;.............
+    ELSE
+;.............
+      POINT temp_base_pos = temp_act_pos ;assigned temporary actual position to temporary base position
+;.............
+      POINT/Z temp_base_pos = TRANS(,,z_base_2) ;assigned temporary base z to temporary base position
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;.............
+      IF DX(temp_act_pos)>0 THEN
+;............
+        POINT/X temp_base_pos = TRANS(900) ;assigned temporary base x to temporary base position
+;............
+      ELSE
+;............
+        POINT/X temp_base_pos = TRANS(-900) ;assigned temporary base x to temporary base position
+;............
+      END
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE temp_base_pos;go to temporary base position
+;.............
+      BREAK
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      IF DX(temp_act_pos)>0 THEN
+;............
+        JMOVE #palmid_l
+;............
+      ELSE
+;............
+        JMOVE #palmid_r
+        JMOVE #palmid_l
+;............
+      END
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      JMOVE #rotmid
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LAPPRO #rotpick,400; pozycja nad pobraniem z rotacja
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE #rotpick
+;.............
+      BREAK
+;.............
+      SIGNAL openfull
+      SIGNAL -openshort
+      SIGNAL -closetorque
+      SWAIT openedfull
+      SIGNAL -openfull
+      SIGNAL cartondelivered
+      SPEED 20
+      ACCURACY 1
+;............
+      LAPPRO #rotpick,400; pozycja nad pobraniem z rotacja
+      SIGNAL -cartondelivered
+;........
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE #rotmid
+;............
+      SPEED 20
+      ACCURACY 1
+;............
+      LMOVE #palmid_l
+;.............
+      BREAK
+;.............
+    END ;end if
+;.............
+    HERE #temp_home_pos
+;.............
+    SPEED 20
+    ACCURACY 1
+;............
+    JMOVE #PPOINT(DEXT(#homepos,1),DEXT(#temp_home_pos,2),DEXT(#temp_home_pos,3),DEXT(#homepos,4),DEXT(#homepos,5),DEXT(#homepos,6))
+;.............
+    BREAK
+;.............
+  END
+;............
+  JMOVE #homepos
+;.............
+  RETURN
+.END
+.PROGRAM teach() #0
+;Home
+  JMOVE #homepos
+;............
+;Pobieranie
+  JMOVE #before_pick_c_l
+  LMOVE #pick_c_l
+  LMOVE #after_pick_c_l
+  JMOVE #before_pick_c_r
+  LMOVE #pick_c_r
+  LMOVE #after_pick_c_r
+;...........
+;laser
+  JMOVE #beforelas
+  LMOVE #laser
+  LMOVE #beforelas
+  LMOVE #befrotate
+  LMOVE #rotpick
+  LMOVE #rotmid
+;...........
+;Paletyzacja
+  JMOVE baseposleft
+  JMOVE baseposright
+;...........
 .END
 .TRANS
 additionalpos 912.939941 729.203064 1526.740234 0.357126 59.475437 -90.065208
-baseleftoffset 1849.968506 -55.522552 52.061687 174.273270 179.800568 173.837387
+baseleftoffset 1849.968506 -185.522552 52.061687 174.273270 179.800568 -6.162616
 baseposleft 1849.968506 -185.522552 52.061687 174.273270 179.800568 -6.162616
 baseposright -1854.750610 -165.535843 49.939091 -175.109222 179.925797 4.890041
 baserightoffset -1854.750610 -165.535843 49.939091 -175.109222 179.925797 4.890041
 calculate 1388.279907 1887.142212 1518.628296 -1.095616 90.145210 -91.226295
-fold 417.389954 1883.206543 1607.591309 0.504923 90.115196 -88.542023
+fold 431.611633 1883.321289 1607.523193 0.505970 90.116798 -88.545090
 glueend 1388.544678 1889.063599 1608.607422 -1.095616 90.145210 -91.226295
-gluestart 494.468384 1906.386353 1610.756836 -1.095831 90.143944 -91.229530
-nadpalleft 1538.968506 -570.522583 1850.000000 174.273270 179.800568 173.837387
+gluestart 494.227997 1896.496704 1610.884521 -1.094122 90.144905 -91.233597
+nadpalleft 1538.968506 -205.522552 1850.000000 174.273270 179.800568 -6.162615
 nadpalright -971.750610 -185.535843 1850.000000 -175.109222 179.925797 4.890041
 narozniki -560.639587 1937.386841 1932.174194 0.931500 89.725159 -88.356003
-odlleft 1558.968506 -550.522583 1069.061646 174.273270 179.800568 173.837387
+odlleft 1558.968506 -185.522552 52.061687 174.273270 179.800568 -6.162616
 odlright -981.750610 -165.535843 1405.939087 -175.109222 179.925797 4.890041
 p_closebag1 -539.213928 1921.172363 1603.347656 -0.193691 89.775093 -91.825310
 p_closebag2 -539.208435 1909.311768 1592.489380 -0.219162 89.742233 -90.569504
-palrotl 757.000000 386.000000 1850.000000 174.273270 179.800568 173.837387
+palrotl 757.000000 386.000000 1850.000000 174.273270 179.800568 -6.162614
 palrotr -757.000000 386.000000 1900.000000 -175.109222 179.925797 4.890041
 podnarozniki -560.273071 1946.259888 1641.578735 0.941330 89.726585 -88.358688
 posrednia 1592.555176 1481.786377 1550.082031 -0.502174 90.144829 -88.349098
 przedklejem 242.738235 1904.119019 1610.292480 -0.605679 90.126678 -88.589180
-przedodlleft 1538.968506 -570.522583 1169.061646 174.273270 179.800568 173.837387
+przedodlleft 1538.968506 -205.522552 152.061691 174.273270 179.800568 -6.162616
 przedodlright -971.750610 -185.535843 1505.939087 -175.109222 179.925797 4.890041
-rotation 1558.968506 -550.522583 1269.061646 -89.564156 90.021416 -90.198296
+rotation 1558.968506 -185.522552 252.061691 90.435844 89.978592 -89.801712
 t1 230.000000 60.000000 0.000000 0.000000 0.000000 0.000000
 t2 -230.000000 60.000000 0.000000 0.000000 0.000000 0.000000
-t3 230.000000 60.000000 600.000000 0.000000 0.000000 0.000000
-t4 -230.000000 60.000000 600.000000 0.000000 0.000000 0.000000
-t5 230.000000 -250.000000 600.000000 0.000000 0.000000 0.000000
-t6 -230.000000 -250.000000 600.000000 0.000000 0.000000 0.000000
+t3 230.000000 60.000000 620.000000 0.000000 0.000000 0.000000
+t4 -230.000000 60.000000 620.000000 0.000000 0.000000 0.000000
+t5 230.000000 -250.000000 620.000000 0.000000 0.000000 0.000000
+t6 -230.000000 -250.000000 620.000000 0.000000 0.000000 0.000000
 t7 230.000000 -250.000000 0.000000 0.000000 0.000000 0.000000
 t8 -230.000000 -250.000000 0.000000 0.000000 0.000000 0.000000
-temp_act_pos -501.085175 1316.848389 1540.278076 0.013699 97.675591 -89.748192
-temp_base_pos -501.085175 1400.000000 1250.000000 0.013699 97.675606 -89.748192
+temp_act_pos 1159.190552 728.599182 1751.667725 52.543152 179.697983 -37.581619
+temp_base_pos 200.000000 650.000000 1700.000000 52.543156 179.697983 -37.581619
 tool1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 .END
 .JOINTS
@@ -5209,11 +5180,11 @@ tool1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 #pick_c_r -16.308945 16.100826 -42.325459 -76.284370 -98.932533 149.632965
 #rotmid 54.391998 -4.735000 14.600000 0.001000 -109.342003 36.606998
 #rotpick 68.440979 30.023064 38.234360 0.156741 -97.960670 21.457190
-#temp_home_pos -27.378195 8.324054 -20.332180 -69.129219 -109.603920 124.427086
+#temp_home_pos 17.067804 -37.208553 -25.876966 -0.107069 -101.048622 72.786446
 .END
 .REALS
-actual_trq = 1.01067
-actualstatus = 3
+actual_trq = 1.35679
+actualstatus = 1
 awaryjnywaga = 1076
 cartdelivered1 = 51
 cartdelivered2 = 54
@@ -5235,7 +5206,7 @@ check_down = 67
 checked_down = 1074
 closedtorque = 1068
 closetorque = 63
-column = 1
+column = 0
 deliveredpos1 = 66
 deliveredpos2 = 55
 deliveredstart = 54
@@ -5246,17 +5217,18 @@ ena_toolshape = -1
 extcom = 1024
 full_carton = 69
 gend_offset_zm = 0
-gend_offset_zp = 5
+gend_offset_zp = 0
 gstart_off_zm = 3
 gstart_off_zp = 0
 gstart_offset_z = 0
 h_base = 1300
 intcom = 29
-layer = 3
+layer = 0
 leftpushed = 1066
 movedup = 66
 nar_offset_zm = 0
 nar_offset_zp = 0
+offset_width = 20
 offsetleft = 1
 offsetright = 1
 offsetx = 0
@@ -5276,7 +5248,7 @@ placedleft = 41
 placedright = 42
 pnar_offset_zm = 10
 pnar_offset_zp = 0
-programnumber = 0
+programnumber = 2
 programready = 1033
 putleft = 1061
 putright = 1063
@@ -5311,6 +5283,127 @@ wingsnok = 1075
 x_base = 200
 y_base = 650
 y_base_2 = 1400
-z_base = 1250
+z_base = 1490
 z_base_2 = 1700
+.END
+.IDE_CMT
+@@@ PROJECT @@@
+Numery krokow sekwencji
+0 - inicjalizacja programu i zmiennych
+10 - pobierz karton
+20 - sciagniecie worka
+30 - zamkniecie worka, pierwszy etap przed obracaniem kartonu
+40 - obrot kartonu w lewo w celu zamkniecia worka
+50 - obrot kartonu w prawo w celu zamkniecia worka
+60 - zamkniecie pudelka
+70 - zaklejenie pudelka
+80 - oznakowanie pudelka
+90 - przeorientowanie chwytaka
+100 - zlapanie kartonu od gory
+@@@ PROJECTNAME @@@
+20231023_1324_canpack
+@@@ HISTORY @@@
+@@@ INSPECTION @@@
+STEP
+PaletaTemp
+BladKod
+LiczKartLPal
+LiczKartPPal
+SchematLPal
+SchematPPal
+@@@ CONNECTION @@@
+Standard 1
+192.168.0.2
+23
+@@@ PROGRAM @@@
+0:Chwytak:F
+.sterowanie 
+.moment 
+.czas 
+0:gohome:F
+0:gotolaser:F
+0:gotosafe:F
+0:!main:F
+0:pg998:F
+0:pg999:F
+0:test:F
+0:autostart.pc:B
+0:autostart2.pc:B
+@@@ TRANS @@@
+PaletaLewa[] 
+PaletaPrawa[] 
+PaletaTemp 
+@@@ JOINTS @@@
+#KartonOznakow0 
+#KartonOznakow1 
+#KartonPaleta0 
+#KartonZaklej0 
+#KartonZamknij0 
+#KartonZamknij1 
+#KartonZmianUch0 
+#KartonZmianUch1 
+#KartonZmianUch2 
+#KartonZmianUch3 
+#KartonZmianUch4 
+#PaletaLewa0 
+#PaletaPrawa0 
+#PobierzKartPra0 
+#PobierzKartPra1 
+#PobierzKartPra2 
+#StartPos0 
+#WorekSciagnij0 
+#WorekSciagnij1 
+#WorekZamknij0 
+#WorekZamkObrL 
+#WorekZamkObrP 
+@@@ REALS @@@
+BladKod Kod bledu
+LiczKartLPal Aktualna liczba kartonow na lewej palecie
+LiczKartPPal Aktualna liczba kartonow na prawej palecie
+SchematLPal Schemat ukladania kartonow na lewej palecie
+SchematPPal Schemat ukladania kartonow na prawej palecie
+STEP Numer kroku sekwencji
+@@@ STRINGS @@@
+@@@ INTEGER @@@
+@@@ SIGNALS @@@
+P_ChwytakOtwart Chwytak otwarty
+P_ChwytakZamkn Chwytak zamkniety
+P_KartonNaPalec Potwierdzenie przyjecia informacji o odlozeniu pudelka na palete
+P_KartonNaStol1 Pudelko gotowe do odbioru ze stolu podawczego, silownik stolu w pozycji LEWO
+P_KartonNaStol2 Pudelko gotowe do odbioru ze stolu podawczego, silownik stolu w pozycji PRAWO
+P_KartonObrL Zadanie obrotu kartonu w lewo w celu zamkniecia worka
+P_KartonObrP Zadanie obrotu kartonu w prawo w celu zamkniecia worka
+P_KartonOznakow Potwierdzenie zakonczenia znakowania kartonu przez laser, impuls 2s
+P_KartonZamk Potwierdzenie zakonczenia zamykania kartonu, impuls 2s
+P_LiczKartLPal Aktualna liczba kartonow na lewej palecie
+P_LiczKartPPal Aktualna liczba kartonow na prawej palecie
+P_SchematLPal Schemat ukladania kartonow na lewej palecie
+P_SchematPPal Schemat ukladania kartonow na prawej palecie
+P_WorekZamk1 Potwierdzenie zakonczenia czynnosci zwiazanych z przygotowaniem worka do zamkniecia, opuszczenie pudelka w dol, impuls 2s
+P_WorekZamk2 Potwierdzenie zakonczenia zamykania worka, impuls 2s
+P_WyborPalety Wybor palety do zaladowania pudelka (0-lewa, 1-prawa)
+P_ZgodaTasmiark Zgoda na przejazd pod tasmiarka
+R_Blad Sygnalizacja bledu
+R_BladKod Kod bledu
+R_Chwytak Chwytak zamknij/otworz (0-otworz, 1-zamknij)
+R_ChwytakMomen1 Chwytak zamknij z momentem 1
+R_ChwytakMomen2 Chwytak zamknij z momentem 2
+R_ChwytakOtw Chwytak otworz do minimalnej szerokosci
+R_ChwytakPelOtw Chwytak otworz do pelnej szerokosci
+R_KartonNaPalec Pudelko odlozone na palecie, inkrementacja licznika pudelek na palecie
+R_KartonObrL Potwierdzenie obrotu kartonu w lewo w celu zamkniecia worka, impuls 2s
+R_KartonObrP Potwierdzenie obrotu kartonu w prawo w celu zamkniecia worka, impuls 2s
+R_KartonOdebran Potwierdzenie odebrania pudelka przez robota ze stolu podawczego - pusty stol podawczy, impuls 2s
+R_KartonOznakow Pudelko w pozycji gotowej do znakowania przez laser
+R_KartonZaklej Potwierdzenie zakonczenia zaklejania tasma kartonu, impuls 2s
+R_WorekZamk1 Pudelko w polozeniu umozliwiajacym rozpoczecie procedury zamykania worka
+R_WorekZamk2 Pudelko opuszczone w dol - mozliwosc przeprowadzenia dalszej procedury zamykania worka
+R_ZalaczStol Zadanie zalaczenia rolek stolu podawczego w kierunku chwytaka robota
+@@@ TOOLS @@@
+@@@ BASE @@@
+@@@ FRAME @@@
+@@@ BOOL @@@
+@@@ DEFAULTS @@@
+BASE: NULL
+TOOL: NULL
 .END
